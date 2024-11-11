@@ -1,0 +1,45 @@
+/* CallToAction.css */
+.call-to-action {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background-color: #00aaff;
+  justify-content: center;
+}
+
+.cta-card {
+  background-color: #1e2952;
+  color: white;
+  border-radius: 15px;
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.cta-title {
+  font-weight: bold;
+}
+
+.cta-divider {
+  background-color: #ff4081;
+  margin: 16px 0;
+}
+
+.cta-text {
+  margin-bottom: 24px;
+}
+
+.cta-button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e73370;
+}

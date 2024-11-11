@@ -1,0 +1,64 @@
+/* Menu.css */
+.menu {
+  background-color: #002244;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.nav-link:not(:first-of-type) {
+  font-weight: normal;
+}
+
+.logo {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: grey;
+}
+
+.divider {
+  height: 4px;
+  background-color: #ff4081;
+  margin-top: 10px;
+}
