@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import "./LeaderMessage.css";
-import LeaderImage from "../../assets/leader-image.jpg"; // Ensure you have the leader's image in your assets folder
+import LeaderImage from "../../assets/images/leader-image.jpg"; // Ensure you have the leader's image in your assets folder
 
 export const LeaderMessage = () => {
   return (

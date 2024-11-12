@@ -8,8 +8,8 @@
 }
 
 .cta-card {
-  background-color: #1e2952;
-  color: white;
+  background-color: #1b284a !important;
+  color: white !important;
   border-radius: 15px;
   flex: 1;
   max-width: 300px;
