@@ -4,6 +4,7 @@
   color: white;
   padding: 60px 20px;
   text-align: center;
+  min-height: calc(80vh - 2 * var(--menu-height));
 }
 
 .leader-content {
@@ -45,14 +46,14 @@
 }
 
 .leader-message-title {
-  font-weight: bold;
+  font-weight: bold !important;
   margin-bottom: 20px;
 }
 
 .leader-button {
   background-color: #ff4b5c;
   color: white;
-  font-weight: bold;
+  font-weight: bold !important;
   text-transform: none;
   padding: 10px 20px;
   border-radius: 5px;

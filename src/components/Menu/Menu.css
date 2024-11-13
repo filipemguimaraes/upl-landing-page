@@ -4,6 +4,7 @@
   color: white;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: var(--menu-height);
 }
 
 .toolbar {
@@ -19,7 +20,7 @@
 }
 
 .nav-link {
-  font-weight: bold;
+  font-weight: bold !important;
   color: white;
   text-decoration: none;
 }
@@ -33,7 +34,7 @@
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: bold !important;
   text-align: center;
   color: white;
 }
