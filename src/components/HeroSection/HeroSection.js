@@ -7,7 +7,7 @@ export const HeroSection = () => {
   return (
     <Box component="section" id="hero-section" className="hero-section">
       <Grid container>
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} md={6}>
           <Box className="hero-content">
             <Typography variant="h3" className="hero-title">
               O Liberalismo Precisa de Ti
