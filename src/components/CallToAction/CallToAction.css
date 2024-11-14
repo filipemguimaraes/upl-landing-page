@@ -7,18 +7,18 @@
 }
 
 .cta-card {
-  background-color: #1b284a !important;
+  background-color: #1a2b49 !important;
   color: white !important;
   padding: 10px !important;
-  width: 300px;
-  height: 460px;
+  width: 300px !important;
+  height: 460px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   border-radius: 30px !important;
-  box-shadow: 10px 10px red !important;
+  box-shadow: 10px 10px #ee3e53 !important;
 }
 
 .cta-title {
@@ -46,7 +46,7 @@
 }
 
 .cta-button {
-  background-color: red !important;
+  background-color: #ee3e53 !important;
   color: white;
   border: none;
   border-radius: 10px !important;
@@ -57,9 +57,9 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   height: 50px;
-  width: 260px;
+  width: 260px !important;
 }
 
 .cta-button:hover {
-  background-color: #e73370;
+  background-color: var(--light-blue-color) !important;
 }
