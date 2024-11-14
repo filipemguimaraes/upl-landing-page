@@ -26,13 +26,13 @@ export const HeroSection = () => {
             </Button>
           </Box>
         </Grid>
-        <Box className="join-us">
-          <Button variant="contained" className="join-button">
-            JUNTA-TE A NÓS!
-          </Button>
-        </Box>
-        <Box className="pink-line" />
       </Grid>
+      <Box className="join-us">
+        <Button variant="contained" className="join-button">
+          JUNTA-TE A NÓS!
+        </Button>
+      </Box>
+      <Box className="pink-line" />
     </Box>
   );
 };

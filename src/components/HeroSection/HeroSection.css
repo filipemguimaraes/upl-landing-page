@@ -54,7 +54,7 @@
 }
 
 .manifesto-button:hover {
-  background-color: #e846a9 !important;
+  background-color: var(--pink-color) !important;
 }
 
 .join-us {
@@ -62,7 +62,7 @@
 }
 
 .join-button {
-  background-color: #e846a9 !important;
+  background-color: var(--pink-color) !important;
   color: white;
   font-size: 24px !important;
   font-weight: bold !important;
@@ -73,6 +73,7 @@
   position: absolute !important;
   bottom: 16px !important;
   height: 80px;
+  min-width: 260px !important;
 }
 
 .pink-line {
@@ -80,5 +81,5 @@
   bottom: 0;
   width: 100%;
   height: 30px;
-  background-color: #e846a9;
+  background-color: var(--pink-color);
 }

@@ -1,44 +1,63 @@
 /* CallToAction.css */
 .call-to-action {
-  display: flex;
-  gap: 20px;
-  padding: 40px;
   background-color: #00aaff;
   justify-content: center;
-  min-height: calc(50vh - 2 * var(--menu-height));
+  align-items: center;
+  min-height: calc(100vh - var(--menu-height));
 }
 
 .cta-card {
   background-color: #1b284a !important;
   color: white !important;
-  border-radius: 15px;
-  flex: 1;
-  max-width: 300px;
+  padding: 10px !important;
+  width: 300px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  border-radius: 30px !important;
+  box-shadow: 10px 10px red !important;
 }
 
 .cta-title {
+  font-size: 28px !important;
   font-weight: bold !important;
+  height: 100px;
+  width: 260px;
+  display: flex;
+  text-align: center;
+  line-height: 1.2 !important;
 }
 
 .cta-divider {
-  background-color: #ff4081;
-  margin: 16px 0;
+  height: 3px;
+  background-color: var(--pink-color) !important;
+  margin: 16px 0 !important;
 }
 
 .cta-text {
-  margin-bottom: 24px;
+  font-size: 18px !important;
+  margin-bottom: 24px !important;
+  height: 200px;
+  width: 260px;
+  text-align: center;
 }
 
 .cta-button {
-  background-color: #ff4081;
+  background-color: red !important;
   color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 10px !important;
+  padding: 10px 20px !important;
+  font-size: 18px !important;
   font-weight: bold !important;
+  line-height: 1.2 !important;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  height: 50px;
+  width: 260px;
 }
 
 .cta-button:hover {
