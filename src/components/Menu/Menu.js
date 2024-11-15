@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -9,11 +9,32 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Box from "@mui/material/Box";
+import Logo from "../../assets/images/Logo-branco.png";
 import "./Menu.css";
 
 export const Menu = ({ position }) => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <AppBar position={position} className="menu">
+    <AppBar
+      position={position}
+      className={`menu ${scrolled ? "scrolled" : ""}`}
+    >
       <Toolbar className="toolbar">
         <div className="nav-links">
           <IconButton edge="start" color="inherit" aria-label="menu">
@@ -45,9 +66,7 @@ export const Menu = ({ position }) => {
         </div>
 
         <div className="logo">
-          <Typography variant="h5">
-            unidos <span>pelo</span> liberalismo
-          </Typography>
+          <img src={Logo} alt="Logo" />
         </div>
 
         <div className="social-media">

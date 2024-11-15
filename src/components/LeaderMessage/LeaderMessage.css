@@ -1,6 +1,10 @@
 /* LeaderMessage.css */
 .leader-message {
-  background: linear-gradient(to bottom, #00aaff, #002244);
+  background: linear-gradient(
+    to bottom,
+    var(--dark-blue-color),
+    var(--light-blue-color)
+  );
   color: white;
   padding: 60px 20px;
   text-align: center;

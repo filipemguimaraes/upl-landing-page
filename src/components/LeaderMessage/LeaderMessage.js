@@ -1,13 +1,12 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import "./LeaderMessage.css";
-import LeaderImage from "../../assets/images/leader-image.jpg"; // Ensure you have the leader's image in your assets folder
+import LeaderImage from "../../assets/images/leader-image.jpg";
 
 export const LeaderMessage = () => {
   return (
     <Box className="leader-message">
       <Box className="leader-content">
-        {/* Leader Image */}
         <Box className="leader-image-container">
           <img src={LeaderImage} alt="Leader" className="leader-image" />
         </Box>

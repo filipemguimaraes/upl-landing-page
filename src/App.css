@@ -1,8 +1,11 @@
 /* App.css */
 :root {
   --menu-height: 100px;
-  --pink-color: #e846a9;
-  --light-blue-color: #23aae2;
+  --light-blue-color: #00acec;
+  --red-color: #e64950;
+  --pink-color: #db4fa6;
+  --yellow-mustard--color: #e9d8a0;
+  --dark-blue-color: #182849;
 }
 
 html {

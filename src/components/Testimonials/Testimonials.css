@@ -1,6 +1,6 @@
 /* Testimonials.css */
 .testimonials-section {
-  background-color: #002244 !important;
+  background-color: var(--dark-blue-color) !important;
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -30,13 +30,13 @@
   width: 600px;
   margin-bottom: 20px !important;
   border-radius: 30px !important;
-  box-shadow: 10px 6px #ee3e53 !important;
+  box-shadow: 10px 6px var(--yellow-mustard--color) !important;
 }
 
 .testimonials-button {
   width: 70% !important;
   height: 60px;
-  background-color: #ee3e53 !important;
+  background-color: var(--red-color) !important;
   color: white;
   font-size: 18px !important;
   font-weight: bold !important;

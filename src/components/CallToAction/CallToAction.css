@@ -1,6 +1,10 @@
 /* CallToAction.css */
 .call-to-action {
-  background-color: #00aaff;
+  background: linear-gradient(
+    to bottom,
+    var(--light-blue-color),
+    var(--dark-blue-color)
+  );
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - var(--menu-height));
@@ -18,7 +22,7 @@
   justify-content: center;
   text-align: center;
   border-radius: 30px !important;
-  box-shadow: 10px 10px #ee3e53 !important;
+  box-shadow: 10px 10px var(--yellow-mustard--color) !important;
 }
 
 .cta-title {
@@ -46,7 +50,7 @@
 }
 
 .cta-button {
-  background-color: #ee3e53 !important;
+  background-color: var(--red-color) !important;
   color: white;
   border: none;
   border-radius: 10px !important;
