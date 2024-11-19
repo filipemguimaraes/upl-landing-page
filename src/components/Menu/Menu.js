@@ -3,12 +3,10 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import Box from "@mui/material/Box";
 import Logo from "../../assets/images/Logo-branco.png";
 import "./Menu.css";
 
@@ -37,9 +35,6 @@ export const Menu = ({ position }) => {
     >
       <Toolbar className="toolbar">
         <div className="nav-links">
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
           <Typography variant="h6">
             <a href="#hero-section" className="nav-link">
               INÍCIO
@@ -103,7 +98,6 @@ export const Menu = ({ position }) => {
           </IconButton>
         </div>
       </Toolbar>
-      <Box className="divider"></Box>
     </AppBar>
   );
 };

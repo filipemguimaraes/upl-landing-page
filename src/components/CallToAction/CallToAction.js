@@ -2,25 +2,7 @@ import React from "react";
 import { Card, CardContent, Typography, Button, Divider } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import "./CallToAction.css";
-
-// Array containing the actions
-const actions = [
-  {
-    title: "Adere à nossa Comunidade WhatsApp",
-    text: "Participa diretamente nas discussões que estão a moldar o futuro do partido. Unidos, trocamos ideias e definimos o caminho para um Portugal mais liberal. Entrar no grupo WhatsApp.",
-    buttonText: "ENTRAR NO GRUPO WHATSAPP",
-  },
-  {
-    title: "Contribui com um Donativo para a Campanha",
-    text: "O teu apoio financeiro é essencial para mantermos a campanha viva e levarmos as nossas ideias a cada canto de Portugal. Cada contribuição conta!",
-    buttonText: "FAZER UM DONATIVO",
-  },
-  {
-    title: "No Dia das Eleições, Vota Lista U",
-    text: "O culminar do nosso trabalho conjunto. No dia das eleições, faz a diferença: vota na Lista U para que possamos restaurar os valores liberais e construir um futuro mais justo e livre.",
-    buttonText: "INSCREVER-ME NA CONVENÇÃO",
-  },
-];
+import { actions } from "../../assets/textConst";
 
 export const CallToAction = () => {
   return (

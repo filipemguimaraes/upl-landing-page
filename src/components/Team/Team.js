@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import "./Team.css";
-import { members } from "./members";
+import { members } from "../../assets/textConst";
 
 export const Team = () => {
   return (

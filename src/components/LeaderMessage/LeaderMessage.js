@@ -1,11 +1,12 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
+import Grid from "@mui/material/Grid2";
 import "./LeaderMessage.css";
 import LeaderImage from "../../assets/images/leader-image.jpg";
 
 export const LeaderMessage = () => {
   return (
-    <Box className="leader-message">
+    <Grid container className="leader-message">
       <Box className="leader-content">
         <Box className="leader-image-container">
           <img src={LeaderImage} alt="Leader" className="leader-image" />
@@ -20,6 +21,6 @@ export const LeaderMessage = () => {
           </Button>
         </Box>
       </Box>
-    </Box>
+    </Grid>
   );
 };

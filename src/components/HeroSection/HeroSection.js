@@ -6,7 +6,7 @@ import "./HeroSection.css";
 export const HeroSection = () => {
   return (
     <Box component="section" id="hero-section" className="hero-section">
-      <Grid container>
+      <Grid container xs={12}>
         <Grid item xs={12} md={6}>
           <Box className="hero-content">
             <Typography variant="h3" className="hero-title">
