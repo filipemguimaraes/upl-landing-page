@@ -18,7 +18,7 @@ export const CallToAction = () => {
               <Typography variant="body1" className="cta-text">
                 {action.text}
               </Typography>
-              <Button variant="contained" color="error" className="cta-button">
+              <Button variant="contained" className="cta-button">
                 {action.buttonText}
               </Button>
             </CardContent>

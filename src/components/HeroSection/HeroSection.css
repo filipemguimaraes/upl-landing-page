@@ -20,25 +20,35 @@
   position: relative;
   z-index: 2;
   max-width: 800px;
-  margin-top: 200px;
-  margin-left: 100px;
+  margin-top: 20vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   text-align: left;
 }
 
 .hero-title {
   font-size: 72px !important;
   font-weight: bold !important;
+  @media (max-width: 600px) {
+    font-size: 48px !important;
+  }
 }
 
 .hero-subtitle {
   font-size: 36px !important;
   font-weight: bold !important;
   margin-bottom: 30px !important;
+  @media (max-width: 600px) {
+    font-size: 24px !important;
+  }
 }
 
 .hero-text {
   font-size: 28px !important;
   margin-bottom: 40px !important;
+  @media (max-width: 600px) {
+    font-size: 22px !important;
+  }
 }
 
 .manifesto-button {
@@ -73,7 +83,7 @@
   position: absolute !important;
   bottom: 16px !important;
   height: 80px;
-  min-width: 260px !important;
+  max-width: 260px !important;
 }
 
 .pink-line {
