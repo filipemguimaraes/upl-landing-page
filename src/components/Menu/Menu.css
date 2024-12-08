@@ -1,4 +1,4 @@
-/* Menu.css */
+/* General Menu Styles */
 .menu {
   background: transparent !important;
   color: white;
@@ -6,6 +6,10 @@
   height: var(--menu-height);
   transition: 0.9s ease !important;
   justify-content: center;
+}
+
+.menu-options {
+  display: flex;
 }
 
 .menu.scrolled {
@@ -17,6 +21,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1000px) {
+    justify-content: space-around;
+  }
 }
 
 .nav-links {
@@ -27,6 +34,7 @@
   padding-bottom: 10px;
 }
 
+/* Navigation Links */
 .nav-link {
   font-weight: bold !important;
   color: white;
@@ -41,6 +49,7 @@
   font-weight: normal;
 }
 
+/* Logo Styles */
 .logo {
   font-weight: bold !important;
   text-align: center;
@@ -51,7 +60,9 @@
   height: 60px !important;
 }
 
+/* Social Media Section */
 .social-media {
+  min-width: 280px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -66,4 +77,48 @@
 
 .social-media a:hover {
   color: grey;
+}
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+  /* Hide desktop navigation */
+  .nav-links {
+    display: none;
+  }
+
+  /* Adjust logo size for smaller screens */
+  .logo img {
+    height: 50px !important;
+  }
+
+  /* Social media adjustments */
+  .social-media {
+    gap: 5px;
+    font-size: 0.9rem;
+  }
+
+  /* Show hamburger menu icon */
+  .menu-icon {
+    display: block;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Add padding for mobile drawer list */
+  .MuiDrawer-paper {
+    padding: 20px;
+    background-color: var(--light-blue-color);
+  }
+
+  /* Links inside drawer */
+  .MuiListItemText-root a {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .MuiListItemText-root a:hover {
+    color: grey !important;
+  }
 }
