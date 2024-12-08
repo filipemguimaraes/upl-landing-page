@@ -24,6 +24,12 @@
   margin-left: 10vw;
   margin-right: 10vw;
   text-align: left;
+  @media (max-width: 1000px) {
+    margin: 15vh 10vw 10vw 10vw;
+  }
+  @media (max-width: 650px) {
+    margin: 15vh 10vw;
+  }
 }
 
 .hero-title {
@@ -69,6 +75,7 @@
 
 .join-us {
   margin-top: 20px;
+  width: 100%;
 }
 
 .join-button {
@@ -83,7 +90,11 @@
   position: absolute !important;
   bottom: 16px !important;
   height: 80px;
-  max-width: 260px !important;
+  width: 260px !important;
+  transform: translateX(50%);
+  @media (max-width: 1000px) {
+    transform: translateX(0%);
+  }
 }
 
 .pink-line {
