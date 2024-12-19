@@ -74,14 +74,14 @@ export const Menu = ({ position }) => {
                 onClose={toggleDrawer(false)}
               >
                 <List>
-                  <ListItem button>
+                  <ListItem button onClick={toggleDrawer(false)}>
                     <ListItemText>
                       <a href="#hero-section" className="nav-link">
                         INÍCIO
                       </a>
                     </ListItemText>
                   </ListItem>
-                  <ListItem button>
+                  <ListItem button onClick={toggleDrawer(false)}>
                     <ListItemText>
                       <a
                         href="https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf"
@@ -93,14 +93,14 @@ export const Menu = ({ position }) => {
                       </a>
                     </ListItemText>
                   </ListItem>
-                  <ListItem button>
+                  <ListItem button onClick={toggleDrawer(false)}>
                     <ListItemText>
                       <a href="#team-section" className="nav-link">
                         EQUIPA
                       </a>
                     </ListItemText>
                   </ListItem>
-                  <ListItem button>
+                  <ListItem button onClick={toggleDrawer(false)}>
                     <ListItemText className="nav-link">MEG</ListItemText>
                   </ListItem>
                 </List>

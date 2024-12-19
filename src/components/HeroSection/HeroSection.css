@@ -83,7 +83,6 @@
   color: white;
   font-size: 24px !important;
   font-weight: bold !important;
-  padding: 15px 30px;
   border-radius: 15px !important;
   text-transform: none;
   transition: background-color 0.3s ease;
@@ -94,6 +93,9 @@
   transform: translateX(50%);
   @media (max-width: 1000px) {
     transform: translateX(0%);
+  }
+  @media (max-width: 500px) {
+    transform: translateX(-30%);
   }
 }
 
