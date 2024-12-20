@@ -62,7 +62,9 @@
 
 /* Social Media Section */
 .social-media {
-  min-width: 280px;
+  div {
+    min-width: 280px;
+  }
   display: flex;
   align-items: center;
   gap: 10px;

@@ -19,7 +19,9 @@ export const CallToAction = () => {
                 {action.text}
               </Typography>
               <Button variant="contained" className="cta-button">
-                {action.buttonText}
+                <a href={action.link} target="_blank" rel="noopener noreferrer">
+                  {action.buttonText}
+                </a>
               </Button>
             </CardContent>
           </Card>

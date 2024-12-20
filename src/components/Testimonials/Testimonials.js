@@ -40,7 +40,11 @@ export const Testimonials = () => {
               </Typography>
               <Typography
                 variant="subtitle1"
-                style={{ textAlign: "right", marginTop: "10px" }}
+                style={{
+                  fontWeight: "bold",
+                  textAlign: "right",
+                  marginTop: "10px",
+                }}
               >
                 - {testimonial.author}
               </Typography>
@@ -50,7 +54,13 @@ export const Testimonials = () => {
       </Grid>
       <Grid item xs={12}>
         <Button variant="contained" className="testimonials-button">
-          JUNTA-TE A ESTES E OUTROS MEMBROS NA NOSSA COMUNIDADE NO WHATSAPP!
+          <a
+            href="https://linktr.ee/unidospeloliberalismo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            JUNTA-TE A ESTES E OUTROS MEMBROS NA NOSSA COMUNIDADE NO WHATSAPP!{" "}
+          </a>
         </Button>
       </Grid>
     </div>

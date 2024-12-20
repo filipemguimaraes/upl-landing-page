@@ -20,7 +20,13 @@ export const HeroSection = () => {
           estrutura, restaurando a liberdade, transparência e mérito.
         </Typography>
         <Button variant="contained" className="manifesto-button">
-          CONHECE O NOSSO MANIFESTO
+          <a
+            href="https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CONHECE O NOSSO MANIFESTO
+          </a>
         </Button>
       </Grid>
       <Grid item xs={12} className="join-us">

@@ -14,6 +14,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import Logo from "../../assets/images/Logo-branco.png";
 import "./Menu.css";
+import { drawerItems, drawerSocialMedia } from "../../assets/textConst";
 
 export const Menu = ({ position }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -74,34 +75,51 @@ export const Menu = ({ position }) => {
                 onClose={toggleDrawer(false)}
               >
                 <List>
-                  <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText>
-                      <a href="#hero-section" className="nav-link">
-                        INÍCIO
-                      </a>
-                    </ListItemText>
-                  </ListItem>
-                  <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText>
-                      <a
-                        href="https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="nav-link"
-                      >
-                        MANIFESTO
-                      </a>
-                    </ListItemText>
-                  </ListItem>
-                  <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText>
-                      <a href="#team-section" className="nav-link">
-                        EQUIPA
-                      </a>
-                    </ListItemText>
-                  </ListItem>
-                  <ListItem button onClick={toggleDrawer(false)}>
-                    <ListItemText className="nav-link">MEG</ListItemText>
+                  {drawerItems.map((item, index) => (
+                    <ListItem button onClick={toggleDrawer(false)} key={index}>
+                      <ListItemText>
+                        {item.link.startsWith("http") ? (
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="nav-link"
+                          >
+                            {item.title}
+                          </a>
+                        ) : (
+                          <a href={item.link} className="nav-link">
+                            {item.title}
+                          </a>
+                        )}
+                      </ListItemText>
+                    </ListItem>
+                  ))}
+
+                  {/* Social Media Section */}
+                  <ListItem className="social-media">
+                    {drawerSocialMedia.map((item, index) => {
+                      const Icon =
+                        item.icon === "FacebookIcon" ? (
+                          <FacebookIcon />
+                        ) : item.icon === "InstagramIcon" ? (
+                          <InstagramIcon />
+                        ) : (
+                          <YouTubeIcon />
+                        );
+
+                      return (
+                        <a
+                          key={index}
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={item.icon}
+                        >
+                          <IconButton color="inherit">{Icon}</IconButton>
+                        </a>
+                      );
+                    })}
                   </ListItem>
                 </List>
               </Drawer>
@@ -132,7 +150,7 @@ export const Menu = ({ position }) => {
                 </a>
               </Typography>
               <Typography variant="h6" className="nav-link">
-                MEG
+                MOÇÃO
               </Typography>
             </div>
           )}

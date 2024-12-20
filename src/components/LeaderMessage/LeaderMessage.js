@@ -16,7 +16,9 @@ export const LeaderMessage = () => {
           "Mensagem do candidato"
         </Typography>
         <Button variant="contained" className="leader-button">
-          CONHECER RESTANTE DA EQUIPA
+          <a href="#team-section" className="nav-link">
+            CONHECER RESTANTE DA EQUIPA
+          </a>
         </Button>
         <div className="logo">
           <img src={Logo} alt="Logo" />
