@@ -61,105 +61,6 @@ export const actions = [
   },
 ];
 
-export const members = [
-  {
-    title: "Vice-Presidentes",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vice-Presidentes",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vice-Presidentes",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Secretário-Geral",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Tesoureiro",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÃO MORAIS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-  {
-    title: "Vogais",
-    name: "JOÂO SANTOS",
-  },
-];
-
 export const testimonials = [
   {
     author: "Filipe",
@@ -185,5 +86,152 @@ export const testimonials = [
     author: "Tiago",
     quote:
       "Tive oportunidade de contactar, de forma muito direta, com conivências entre núcleos e órgãos centrais, que me pareceram no mínimo incompatíveis com um partido que se diz liberal. Para além disso estou desiludido com a oportunidade falhada que a IL teve nestas últimas eleições, fruto de uma estratégia divisionista da CE e que se revelou desastrosa.",
+  },
+  {
+    author: "Tiago",
+    quote:
+      "Tive oportunidade de contactar, de forma muito direta, com conivências entre núcleos e órgãos centrais, que me pareceram no mínimo incompatíveis com um partido que se diz liberal. Para além disso estou desiludido com a oportunidade falhada que a IL teve nestas últimas eleições, fruto de uma estratégia divisionista da CE e que se revelou desastrosa.",
+  },
+  {
+    author: "Tiago",
+    quote:
+      "Tive oportunidade de contactar, de forma muito direta, com conivências entre núcleos e órgãos centrais, que me pareceram no mínimo incompatíveis com um partido que se diz liberal. Para além disso estou desiludido com a oportunidade falhada que a IL teve nestas últimas eleições, fruto de uma estratégia divisionista da CE e que se revelou desastrosa.",
+  },
+  {
+    author: "Tiago",
+    quote:
+      "Tive oportunidade de contactar, de forma muito direta, com conivências entre núcleos e órgãos centrais, que me pareceram no mínimo incompatíveis com um partido que se diz liberal. Para além disso estou desiludido com a oportunidade falhada que a IL teve nestas últimas eleições, fruto de uma estratégia divisionista da CE e que se revelou desastrosa.",
+  },
+  {
+    author: "Tiago",
+    quote:
+      "Tive oportunidade de contactar, de forma muito direta, com conivências entre núcleos e órgãos centrais, que me pareceram no mínimo incompatíveis com um partido que se diz liberal. Para além disso estou desiludido com a oportunidade falhada que a IL teve nestas últimas eleições, fruto de uma estratégia divisionista da CE e que se revelou desastrosa.",
+  },
+];
+
+export const members = [
+  {
+    title: "VP - Relações Institucionais",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "VP - Assuntos Parlamentares",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "VP - Política Local",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "VP - Formação e Talento",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "VP - Comunicação",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Secretário-Geral",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Tesoureiro",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Comunicação e Marketing",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Operações e Eventos",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Gestão e Partilha de Conhecimento",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Transformação Digital",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Ação Local: Norte",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Ação Local: Centro",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Ação Local: Sul",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Ação Local: Ilhas",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Ação Local: Diáspora",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Juventude",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Saúde",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Educação e Cultura",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Trabalho e Segurança Social",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Economia e Fiscalidade",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Justiça, Segurança e Migrações",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Infraestruturas, Habitação e Turismo",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Vogal - Ambiente, Sustentabilidade e Energia",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
+  },
+  {
+    title: "Suplente",
+    name: "JOÂO SANTOS",
   },
 ];

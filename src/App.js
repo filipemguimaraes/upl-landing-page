@@ -16,8 +16,8 @@ function App() {
         <HeroSection />
         <CallToAction />
         <LeaderMessage />
-        <Team />
         <Testimonials />
+        <Team />
         <Menu position="static" /> {/* Footer Menu */}
       </div>
     </ThemeProvider>
