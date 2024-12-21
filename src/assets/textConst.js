@@ -63,7 +63,7 @@ export const actions = [
 
 export const testimonials = [
   {
-    author: "Filipe",
+    author: "Filipe Guimarães, 1349",
     quote:
       "Acredito que o movimento Unidos pelo Liberalismo é a força necessária para promover o liberalismo interno que o partido tanto precisa. É urgente abrir o partido aos seus membros, através de primárias, especialmente para a composição das listas às eleiçoes legislativas. Só assim conseguiremos aplicar, internamente, os mesmos princípios que defendemos para o país: mais concorrência, transparência e meritocracia.",
   },
