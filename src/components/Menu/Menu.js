@@ -12,7 +12,7 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import Logo from "../../assets/images/Logo-branco.png";
+import Logo from "../../assets/images/logo-branco.png";
 import "./Menu.css";
 import { drawerItems, drawerSocialMedia } from "../../assets/textConst";
 
