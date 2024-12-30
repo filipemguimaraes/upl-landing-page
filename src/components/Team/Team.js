@@ -43,7 +43,7 @@ export const Team = () => {
             className="team-button"
             size="small"
             onClick={() => handleOpen(member)}
-            style={{ marginTop: "10px" }}
+            style={{ marginTop: "6px" }}
           >
             Ver Biografia
           </Button>

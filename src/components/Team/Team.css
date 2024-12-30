@@ -29,21 +29,16 @@
 }
 
 .team-member {
-  display: grid;
+  display: flexbox;
   align-items: center;
   justify-content: center;
   max-width: 240px;
 }
 
 .member-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 200px;
   height: 40px;
   font-size: 14px !important;
   color: #ffbf00;
-  text-align: center;
 }
 
 .member-name {
@@ -53,6 +48,7 @@
 }
 
 .team-button {
+  width: 150px;
   background-color: var(--red-color) !important;
   color: white;
   border: none;
