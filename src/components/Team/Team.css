@@ -15,15 +15,10 @@
 }
 
 .member-image-container {
-  width: 100px;
-  height: 100px;
-}
-
-.member-image-container {
   border-radius: 50%;
   overflow: hidden;
-  width: 10vh;
-  height: 10vh;
+  width: 15vh;
+  height: 15vh;
   margin: auto;
 }
 
@@ -34,16 +29,44 @@
 }
 
 .team-member {
-  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  max-width: 240px;
 }
 
 .member-title {
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  height: 40px;
+  font-size: 14px !important;
   color: #ffbf00;
+  text-align: center;
 }
 
 .member-name {
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: bold !important;
   color: white;
+}
+
+.team-button {
+  background-color: var(--red-color) !important;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.team-button:hover {
+  background-color: var(--light-blue-color) !important;
+}
+
+.close-team-button {
+  background-color: var(--light-blue-color) !important;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
