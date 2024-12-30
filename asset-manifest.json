@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.05e62e11.css",
-    "main.js": "/upl-landing-page/static/js/main.4de4758b.js",
+    "main.css": "/upl-landing-page/static/css/main.56b57669.css",
+    "main.js": "/upl-landing-page/static/js/main.138b3b42.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
     "static/media/Carolina_Veloso_Martins.jpg": "/upl-landing-page/static/media/Carolina_Veloso_Martins.36b7ad7cb36bde2f79bb.jpg",
@@ -39,12 +39,12 @@
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.05e62e11.css.map": "/upl-landing-page/static/css/main.05e62e11.css.map",
-    "main.4de4758b.js.map": "/upl-landing-page/static/js/main.4de4758b.js.map",
+    "main.56b57669.css.map": "/upl-landing-page/static/css/main.56b57669.css.map",
+    "main.138b3b42.js.map": "/upl-landing-page/static/js/main.138b3b42.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e62e11.css",
-    "static/js/main.4de4758b.js"
+    "static/css/main.56b57669.css",
+    "static/js/main.138b3b42.js"
   ]
 }
