@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import "./LeaderMessage.css";
-import LeaderImage from "../../assets/images/leader-image.jpg";
+import LeaderImage from "../../assets/images/team/Rui_Malheiro.jpg";
 import Logo from "../../assets/images/logo-branco.png";
 
 export const LeaderMessage = () => {

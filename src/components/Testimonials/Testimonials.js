@@ -1,24 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Typography, Paper, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import doubleQuotesIcon from "../../assets/svg/double-quotes.svg";
 import "./Testimonials.css";
 import { testimonials } from "../../assets/textConst";
 
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 export const Testimonials = () => {
-  // State to manage the number of displayed testimonials
+  const shuffledTestimonials = useMemo(
+    () => shuffleArray(testimonials),
+    [testimonials]
+  );
+
   const [visibleTestimonials, setVisibleTestimonials] = useState(3);
 
-  // Function to handle loading more testimonials
   const showMoreTestimonials = () => {
     setVisibleTestimonials(visibleTestimonials + 3);
     window.scrollBy(0, 400);
   };
 
-  // Function to handle showing less testimonials and scrolling up
   const showLessTestimonials = () => {
     setVisibleTestimonials(visibleTestimonials - 3);
-    // Scroll the page up by 100px
     window.scrollBy(0, -600);
   };
 
@@ -44,7 +54,7 @@ export const Testimonials = () => {
         </Grid>
 
         <Grid item xs={12} md={9} className="right-section">
-          {testimonials
+          {shuffledTestimonials
             .slice(0, visibleTestimonials)
             .map((testimonial, index) => (
               <Paper
