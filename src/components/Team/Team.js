@@ -58,11 +58,14 @@ export const Team = () => {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              width: 400,
+              width: "80%", // Set width to 80% of the screen
+              maxWidth: 400, // Maximum width is 400px
+              maxHeight: "80vh", // Ensures it doesn't exceed the viewport height
               bgcolor: "background.paper",
               boxShadow: 24,
               p: 4,
               borderRadius: "8px",
+              overflowY: "auto", // Enables scrolling for content overflow
             }}
           >
             <img
