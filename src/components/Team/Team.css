@@ -22,19 +22,6 @@
   margin: auto;
 }
 
-@media (min-width: 768px) {
-  .member-image-container {
-    margin-bottom: 0;
-  }
-}
-
-.team-member {
-  display: flexbox;
-  align-items: center;
-  justify-content: center;
-  max-width: 240px;
-}
-
 .member-title {
   height: 40px;
   font-size: 14px !important;
