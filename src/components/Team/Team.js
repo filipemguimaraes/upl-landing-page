@@ -31,13 +31,12 @@ export const Team = () => {
               style={{ width: "100%" }}
             />
           </Grid>
-          <Typography variant="body2" className="member-title">
-            {member.title}
-          </Typography>
           <Typography variant="h6" className="member-name">
             {member.name}
           </Typography>
-          <Typography variant="body2">{member.city}</Typography>
+          <Typography variant="body2" className="member-title">
+            {member.title}
+          </Typography>
           <Button
             variant="contained"
             className="team-button"
@@ -58,14 +57,14 @@ export const Team = () => {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              width: "80%", // Set width to 80% of the screen
-              maxWidth: 400, // Maximum width is 400px
-              maxHeight: "80vh", // Ensures it doesn't exceed the viewport height
+              width: "80%",
+              maxWidth: 400,
+              maxHeight: "80vh",
               bgcolor: "background.paper",
               boxShadow: 24,
               p: 4,
               borderRadius: "8px",
-              overflowY: "auto", // Enables scrolling for content overflow
+              overflowY: "auto",
             }}
           >
             <img
@@ -78,7 +77,7 @@ export const Team = () => {
               }}
             />
             <Typography variant="h6" gutterBottom>
-              {selectedMember.name}
+              {selectedMember.name} - {selectedMember.city}
             </Typography>
             <Typography variant="body2" gutterBottom>
               {selectedMember.title}

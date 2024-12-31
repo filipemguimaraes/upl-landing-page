@@ -121,20 +121,6 @@ export const testimonials = [
 
 export const members = [
   {
-    title: "VP - Relações Institucionais",
-    name: "Daniel Moura",
-    city: "Loures",
-    photo: "Daniel_Moura",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
-    title: "VP - Assuntos Parlamentares",
-    name: "Natacha Ariana Ribeiro",
-    city: "Lisboa",
-    photo: "Natacha_Ribeiro",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
     title: "VP - Política Local",
     name: "Carlos Martins",
     city: "Santa Maria da Feira",
@@ -146,6 +132,20 @@ export const members = [
     name: "Cristina Nunes",
     city: "Lisboa",
     photo: "Cristina_Nunes",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    title: "VP - Relações Institucionais",
+    name: "Daniel Moura",
+    city: "Loures",
+    photo: "Daniel_Moura",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    title: "VP - Assuntos Parlamentares",
+    name: "Natacha Ariana Ribeiro",
+    city: "Lisboa",
+    photo: "Natacha_Ribeiro",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
@@ -170,20 +170,6 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Comunicação e Marketing",
-    name: "Tiago Vilaverde",
-    city: "Porto",
-    photo: "Tiago_Vilaverde",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
-    title: "Vogal - Operações e Eventos",
-    name: "Marta Coutinho",
-    city: "Porto",
-    photo: "Marta_Coutinho",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
     title: "Vogal - Gestão e Partilha de Conhecimento",
     name: "Carolina Veloso Martins",
     city: "Noruega",
@@ -195,6 +181,20 @@ export const members = [
     name: "Filipe Guimarães",
     city: "Lisboa",
     photo: "Filipe_Guimarães",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    title: "Vogal - Operações e Eventos",
+    name: "Marta Coutinho",
+    city: "Porto",
+    photo: "Marta_Coutinho",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    title: "Vogal - Comunicação e Marketing",
+    name: "Tiago Vilaverde",
+    city: "Porto",
+    photo: "Tiago_Vilaverde",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
@@ -233,6 +233,20 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
+    title: "Vogal - Ambiente, Sustentabilidade e Energia",
+    name: "Fernando Saraiva",
+    city: "São João da Madeira",
+    photo: "Fernando_Saraiva",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
+    title: "Vogal - Economia e Fiscalidade",
+    name: "Hugo Condesa",
+    city: "Porto",
+    photo: "Hugo_Condesa",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+  {
     title: "Vogal - Juventude",
     name: "Ivo Silva",
     city: "Trofa",
@@ -244,27 +258,6 @@ export const members = [
     name: "Jorge Carrapita",
     city: "Matosinhos",
     photo: "Jorge_Carrapita",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
-    title: "Vogal - Educação e Cultura",
-    name: "Miguel Machado Pereira",
-    city: "Évora",
-    photo: "Miguel_Pereira",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
-    title: "Vogal - Trabalho e Segurança Social",
-    name: "Sónia Almada",
-    city: "Madeira",
-    photo: "Sónia_Almada",
-    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
-  },
-  {
-    title: "Vogal - Economia e Fiscalidade",
-    name: "Hugo Condesa",
-    city: "Porto",
-    photo: "Hugo_Condesa",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
@@ -282,12 +275,20 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ambiente, Sustentabilidade e Energia",
-    name: "Fernando Saraiva",
-    city: "São João da Madeira",
-    photo: "Fernando_Saraiva",
+    title: "Vogal - Educação e Cultura",
+    name: "Miguel Machado Pereira",
+    city: "Évora",
+    photo: "Miguel_Pereira",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
+  {
+    title: "Vogal - Trabalho e Segurança Social",
+    name: "Sónia Almada",
+    city: "Madeira",
+    photo: "Sónia_Almada",
+    bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+  },
+
   {
     title: "Suplente",
     name: "Tomás Pereira",
@@ -318,9 +319,9 @@ export const members = [
   },
   {
     title: "Suplente",
-    name: "Maria de Oliveira Simões",
-    city: "Cascais",
-    photo: "Maria_Simões",
+    name: "Ricardo Santos",
+    city: "Pombal",
+    photo: "Ricardo_Santos",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
@@ -332,9 +333,9 @@ export const members = [
   },
   {
     title: "Suplente",
-    name: "Ricardo Santos",
-    city: "Pombal",
-    photo: "Ricardo_Santos",
+    name: "Maria de Oliveira Simões",
+    city: "Cascais",
+    photo: "Maria_Simões",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
 ];
