@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.132293be.css",
-    "main.js": "/upl-landing-page/static/js/main.2298c827.js",
+    "main.css": "/upl-landing-page/static/css/main.378a472d.css",
+    "main.js": "/upl-landing-page/static/js/main.d539dc19.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
-    "static/media/Carolina_Veloso_Martins.jpg": "/upl-landing-page/static/media/Carolina_Veloso_Martins.36b7ad7cb36bde2f79bb.jpg",
+    "static/media/Carolina_Veloso_Martins.jpg": "/upl-landing-page/static/media/Carolina_Veloso_Martins.1cbd84d63fbdd9ef136d.jpg",
     "static/media/Nelson_Gonçalves.jpg": "/upl-landing-page/static/media/Nelson_Gonçalves.8d54c64d8171bfdb35f5.jpg",
     "static/media/Daniel_Moura.jpeg": "/upl-landing-page/static/media/Daniel_Moura.04c55a276529626aed76.jpeg",
     "static/media/Hugo_Condesa.jpeg": "/upl-landing-page/static/media/Hugo_Condesa.bd66c56333b786920265.jpeg",
@@ -15,8 +15,8 @@
     "static/media/José_Baptista.jpg": "/upl-landing-page/static/media/José_Baptista.a601e7ec51564b51cd66.jpg",
     "static/media/Miguel_Gomes.jpg": "/upl-landing-page/static/media/Miguel_Gomes.e25f61789b326ed32a55.jpg",
     "static/media/Maria_Simões.jpeg": "/upl-landing-page/static/media/Maria_Simões.14cb07783518c348f722.jpeg",
-    "static/media/Tiago_Vilaverde.jpeg": "/upl-landing-page/static/media/Tiago_Vilaverde.f94eb99c7c0089f5dc42.jpeg",
     "static/media/Filipe_Guimarães.jpg": "/upl-landing-page/static/media/Filipe_Guimarães.7ffab61b213f8a3c5f4e.jpg",
+    "static/media/Tiago_Vilaverde.jpeg": "/upl-landing-page/static/media/Tiago_Vilaverde.96d29279b9b3533acdb2.jpeg",
     "static/media/Paulo_Vieira.jpg": "/upl-landing-page/static/media/Paulo_Vieira.a8e4fb4d5e47aff03998.jpg",
     "static/media/Natacha_Ribeiro.jpg": "/upl-landing-page/static/media/Natacha_Ribeiro.488ae2aeaf1ce74bfc38.jpg",
     "static/media/Rui_Valdemar.jpg": "/upl-landing-page/static/media/Rui_Valdemar.9b6cf37a53334c825c06.jpg",
@@ -34,17 +34,17 @@
     "static/media/Henrique_França.jpg": "/upl-landing-page/static/media/Henrique_França.9277e674803191659830.jpg",
     "static/media/Cristina_Nunes.jpg": "/upl-landing-page/static/media/Cristina_Nunes.3d6300af97a8c15ad93f.jpg",
     "static/media/Caetano_Martins.jpeg": "/upl-landing-page/static/media/Caetano_Martins.b9edf20ef08bda51f5b0.jpeg",
-    "static/media/Cátia_Martins.jpeg": "/upl-landing-page/static/media/Cátia_Martins.c6a126ecfcfb5d476b76.jpeg",
+    "static/media/Cátia_Martins.jpeg": "/upl-landing-page/static/media/Cátia_Martins.ce97e5917c7e58d81158.jpeg",
     "static/media/logo-branco.png": "/upl-landing-page/static/media/logo-branco.3936221324a2679aaa3d.png",
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.132293be.css.map": "/upl-landing-page/static/css/main.132293be.css.map",
-    "main.2298c827.js.map": "/upl-landing-page/static/js/main.2298c827.js.map",
+    "main.378a472d.css.map": "/upl-landing-page/static/css/main.378a472d.css.map",
+    "main.d539dc19.js.map": "/upl-landing-page/static/js/main.d539dc19.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.132293be.css",
-    "static/js/main.2298c827.js"
+    "static/css/main.378a472d.css",
+    "static/js/main.d539dc19.js"
   ]
 }
