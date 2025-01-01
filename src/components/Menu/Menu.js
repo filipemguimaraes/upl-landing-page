@@ -150,7 +150,14 @@ export const Menu = ({ position }) => {
                 </a>
               </Typography>
               <Typography variant="h6" className="nav-link">
-                MOÇÃO
+                <a
+                  href="https://linktr.ee/unidospeloliberalismo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link"
+                >
+                  MEG
+                </a>
               </Typography>
             </div>
           )}

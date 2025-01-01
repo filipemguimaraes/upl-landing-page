@@ -8,11 +8,15 @@ export const drawerItems = [
     link: "https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf",
   },
   {
+    title: "TESTEMUNHOS",
+    link: "#testimonials-section",
+  },
+  {
     title: "EQUIPA",
     link: "#team-section",
   },
   {
-    title: "MOÇÃO",
+    title: "MEG",
     link: "https://linktr.ee/unidospeloliberalismo",
   },
   {

@@ -33,7 +33,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <div className="testimonials-section">
+    <div id="testimonials-section" className="testimonials-section">
       <Grid container justifyContent="center">
         <Grid
           item
