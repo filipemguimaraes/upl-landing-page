@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.378a472d.css",
-    "main.js": "/upl-landing-page/static/js/main.0cafb0ef.js",
+    "main.css": "/upl-landing-page/static/css/main.8f53c067.css",
+    "main.js": "/upl-landing-page/static/js/main.1243b77e.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
     "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.19dd01c610a89b6f6346.jpg",
@@ -39,12 +39,12 @@
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.378a472d.css.map": "/upl-landing-page/static/css/main.378a472d.css.map",
-    "main.0cafb0ef.js.map": "/upl-landing-page/static/js/main.0cafb0ef.js.map",
+    "main.8f53c067.css.map": "/upl-landing-page/static/css/main.8f53c067.css.map",
+    "main.1243b77e.js.map": "/upl-landing-page/static/js/main.1243b77e.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.378a472d.css",
-    "static/js/main.0cafb0ef.js"
+    "static/css/main.8f53c067.css",
+    "static/js/main.1243b77e.js"
   ]
 }
