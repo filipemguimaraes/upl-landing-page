@@ -34,22 +34,24 @@
 }
 
 .show-button {
-  font-size: 18px !important;
-  font-weight: 500 !important;
-  padding: 10px 20px;
-  border: 2px solid white !important;
-  border-radius: 0px !important;
-  text-transform: none;
+  margin: 0;
+  background-color: var(--red-color) !important;
+  color: white;
+  border: none;
+  border-radius: 10px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .show-more {
-  background-color: transparent !important;
+  background-color: var(--light-blue-color) !important;
   color: white !important;
 }
 
 .show-more:hover {
-  background-color: var(--light-blue-color) !important;
+  background-color: var(--red-color) !important;
 }
 
 .show-less {
@@ -58,5 +60,5 @@
 }
 
 .show-less:hover {
-  background-color: transparent !important;
+  background-color: var(--red-color) !important;
 }

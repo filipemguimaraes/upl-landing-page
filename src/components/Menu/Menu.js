@@ -3,6 +3,8 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
+import TwitterIcon from "@mui/icons-material/X";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -32,7 +34,6 @@ export const Menu = ({ position }) => {
       setScrolled(window.scrollY > 100);
     };
 
-    // Initial size check
     handleResize();
 
     window.addEventListener("resize", handleResize);
@@ -104,9 +105,11 @@ export const Menu = ({ position }) => {
                           <FacebookIcon />
                         ) : item.icon === "InstagramIcon" ? (
                           <InstagramIcon />
-                        ) : (
+                        ) : item.icon === "YouTubeIcon" ? (
                           <YouTubeIcon />
-                        );
+                        ) : item.icon === "WhatsAppIcon" ? (
+                          <WhatsAppIcon />
+                        ) : null;
 
                       return (
                         <a
@@ -136,7 +139,7 @@ export const Menu = ({ position }) => {
               </Typography>
               <Typography variant="h6">
                 <a
-                  href="https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf"
+                  href="https://www.unidospeloliberalismo.pt/_files/ugd/83af3f_c98461c43c5a4d6cafe39c48ab988a91.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link"
@@ -175,12 +178,21 @@ export const Menu = ({ position }) => {
           <div className="social-media">
             <Typography variant="body1">SEGUE-NOS</Typography>
             <a
-              href="https://www.facebook.com/unidospeloliberalismo/?locale=pt_BR"
+              href="https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN"
               target="_blank"
               rel="noopener noreferrer"
             >
               <IconButton color="inherit">
-                <FacebookIcon />
+                <WhatsAppIcon />
+              </IconButton>
+            </a>
+            <a
+              href="https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton color="inherit">
+                <TwitterIcon />
               </IconButton>
             </a>
             <a
@@ -193,6 +205,15 @@ export const Menu = ({ position }) => {
               </IconButton>
             </a>
             <a
+              href="https://www.facebook.com/unidospeloliberalismo/?locale=pt_BR"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconButton color="inherit">
+                <FacebookIcon />
+              </IconButton>
+            </a>
+            <a
               href="https://www.youtube.com/channel/UCQXIj_QcRTm2r3Q2esnc35A"
               target="_blank"
               rel="noopener noreferrer"
@@ -201,9 +222,11 @@ export const Menu = ({ position }) => {
                 <YouTubeIcon />
               </IconButton>
             </a>
-            <IconButton color="inherit">
-              <MailOutlineIcon />
-            </IconButton>
+            <a href="mailto:geral@unidospeloliberalismo.pt" aria-label="Email">
+              <IconButton color="inherit">
+                <MailOutlineIcon />
+              </IconButton>
+            </a>
           </div>
         )}
       </Toolbar>

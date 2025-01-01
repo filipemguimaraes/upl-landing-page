@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--menu-height); /* Ensure content is not cut off */
 }
 
 body,

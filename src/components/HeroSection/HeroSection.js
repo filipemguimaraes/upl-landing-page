@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Button } from "@mui/material";
+import { Typography, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import "./HeroSection.css";
 
@@ -14,27 +14,45 @@ export const HeroSection = () => {
           Portugal Precisa de Nós
         </Typography>
         <Typography variant="body1" className="hero-text">
-          Para mudar Portugal, temos primeiro de mudar o Partido. Unidos,
-          podemos refundar o Partido e devolver-lhe os valores Liberais que
-          sempre defendemos. Com coragem e ambição, reformaremos a nossa
-          estrutura, restaurando a liberdade, transparência e mérito.
+          Este é o momento de fazermos mais e melhor. Não podemos ser apenas
+          mais um partido no panorama político. Precisamos de ser a força que
+          inspira, que desafia, que lidera. O liberalismo é coragem, é visão, é
+          acreditar que o futuro pode ser diferente e que está nas nossas mãos
+          construí-lo.
+          <br />
+          Esta candidatura é muito mais do que uma candidatura à liderança da
+          Iniciativa Liberal. Representa a coragem, a abertura, a
+          responsabilidade e a ação que têm faltado, não apenas para liderar a
+          Iniciativa Liberal, mas para liderar um movimento que devolva ao
+          indivíduo a esperança, a confiança e a liberdade. <br />
+          Unidos, podemos construir um partido que inspire, que seja
+          responsável, que marque nas pessoas um verdadeiro desígnio nacional, o
+          desígnio de colocar Portugal dentro das dez economias mais
+          desenvolvidas da Europa, que seja corajoso e em que as ações sejam
+          mais fortes do que as palavras.
         </Typography>
-        <Button variant="contained" className="manifesto-button">
-          <a
-            href="https://www.unidospeloliberalismo.pt/_files/ugd/cb2a52_3d6a20f645134306b292574dd0cec699.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CONHECE O NOSSO MANIFESTO
-          </a>
-        </Button>
+        <div className="button-container">
+          <Button variant="contained" className="manifesto-button">
+            <a
+              href="https://www.unidospeloliberalismo.pt/_files/ugd/83af3f_c98461c43c5a4d6cafe39c48ab988a91.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              VER MANIFESTO
+            </a>
+          </Button>
+
+          <Button variant="contained" className="manifesto-button">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe2GTdXUFEvavO0bZhHeSdQlBELIviU5jNy5r1vxev02gMowQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SUBSCREVER
+            </a>
+          </Button>
+        </div>
       </Grid>
-      <Grid item xs={12} className="join-us">
-        <Button variant="contained" className="join-button">
-          JUNTA-TE A NÓS!
-        </Button>
-      </Grid>
-      <Grid item xs={12} className="pink-line" />
     </Grid>
   );
 };

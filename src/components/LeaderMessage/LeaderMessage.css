@@ -2,8 +2,8 @@
 .leader-message {
   background: linear-gradient(
     to bottom,
-    var(--dark-blue-color),
-    var(--light-blue-color)
+    var(--light-blue-color),
+    var(--dark-blue-color)
   );
   color: white;
   padding: 60px 20px;

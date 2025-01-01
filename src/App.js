@@ -7,6 +7,7 @@ import { Testimonials } from "./components/Testimonials/Testimonials";
 import { Team } from "./components/Team/Team";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./assets/theme";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
       <div className="App">
         <Menu position="fixed" /> {/* Header Menu */}
         <HeroSection />
-        <CallToAction />
+        {/* <CallToAction /> */}
         <LeaderMessage />
         <Testimonials />
         <Team />
-        <Menu position="static" /> {/* Footer Menu */}
+        <Footer />
       </div>
     </ThemeProvider>
   );

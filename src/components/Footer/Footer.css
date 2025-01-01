@@ -1,0 +1,50 @@
+/* Footer.css */
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.join-link {
+  display: flex; /* Flex for icon and text */
+  align-items: center; /* Centers them vertically */
+  justify-content: center; /* Centers content */
+  text-decoration: none; /* Removes underline from link */
+  color: white; /* Ensures text color matches the button */
+}
+
+.whatsapp-icon {
+  font-size: 28px !important; /* Adjusts icon size */
+  margin-right: 6px;
+}
+
+.join-button {
+  background-color: var(--pink-color) !important;
+  color: white;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  border-radius: 15px !important;
+  text-transform: none;
+  transition: background-color 0.3s ease;
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 20%;
+  height: 84px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  @media (max-width: 650px) {
+    right: 10%;
+  }
+}
+
+.pink-line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: var(--pink-color);
+}
