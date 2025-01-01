@@ -57,36 +57,36 @@ export const actions = [
     title: "No Dia das Eleições, Vota Lista U",
     text: "O culminar do nosso trabalho conjunto. No dia das eleições, faz a diferença: vota na Lista U para que possamos restaurar os valores liberais e construir um futuro mais justo e livre.",
     buttonText: "INSCREVER-ME NA CONVENÇÃO",
-    link: "https://linktr.ee/unidospeloliberalismo",
+    link: "https://portal.liberal.pt/inscricao-na-ix-convencao-nacional",
   },
 ];
 
 export const testimonials = [
-  {
-    author: "Filipe Guimarães, 1349",
-    quote:
-      "Acredito que o movimento Unidos pelo Liberalismo é a força necessária para promover o liberalismo interno que o partido tanto precisa. É urgente abrir o partido aos seus membros, através de primárias, especialmente para a composição das listas às eleiçoes legislativas. Só assim conseguiremos aplicar, internamente, os mesmos princípios que defendemos para o país: mais concorrência, transparência e meritocracia.",
-  },
+  // {
+  //   author: "Filipe",
+  //   quote:
+  //     "Acredito que o movimento Unidos pelo Liberalismo é a força necessária para promover o liberalismo interno que o partido tanto precisa. É urgente abrir o partido aos seus membros, através de primárias, especialmente para a composição das listas às eleiçoes legislativas. Só assim conseguiremos aplicar, internamente, os mesmos princípios que defendemos para o país: mais concorrência, transparência e meritocracia.",
+  // },
   {
     author: "Marco Alves",
     quote:
       "O liberalismo é o espaço dos amantes da liberdade, daqueles que a amam tão apaixonadamente que compreendem que a liberdade dos outros tem tanto valor como a nossa, e que por isso assumem como singular missão de vida a responsabilidade pela proteção de um valor que é tão seu como de todos os outros. Onde este ideal atualmente é acarinhado com mais determinação é no movimento Unidos pelo Liberalismo!",
   },
-  {
-    author: "Carolina Veloso Martins",
-    quote:
-      "Decidi juntar-me ao movimento Unidos Pelo Liberalismo por sentir a necessidade de revitalizar e reavivar as discussões liberais no partido. Sou Liberal e quero acima de tudo lutar pela implementação das ideias liberais em Portugal. E vejo neste movimento uma oportunidade de reunião do partido e retorno ao crescimento externo (e interno) que precisamos.",
-  },
+  // {
+  //   author: "Carolina Veloso Martins",
+  //   quote:
+  //     "Decidi juntar-me ao movimento Unidos Pelo Liberalismo por sentir a necessidade de revitalizar e reavivar as discussões liberais no partido. Sou Liberal e quero acima de tudo lutar pela implementação das ideias liberais em Portugal. E vejo neste movimento uma oportunidade de reunião do partido e retorno ao crescimento externo (e interno) que precisamos.",
+  // },
   {
     author: "Carlos Oliveira",
     quote:
       "Este movimento é a resposta óbvia ao estatismo e ao populismo que impera no ambiente político ! Precisamos de reformas estruturais urgentes, de nos libertarmos da obesidade crónica do estado, de nos tornarmos mais solidários e proporcionar um contexto e um futuro sem armadilhas aos muitos que querem empreeender. Não vejo por parte de quem lidera, uma clara manifestação em resolver e principalmente em ouvir as partes envolvidas nos temas mais cruéis e dramáticos do momento como por exemplo a habitação. Força UpLs !!",
   },
-  {
-    author: "Sónia Almada, 1963",
-    quote:
-      'O movimento "Unidos pelo Liberalismo" na Iniciativa Liberal representa a luta por um Portugal mais livre e próspero. Acredito que a chave para o nosso futuro está na promoção da liberdade individual, na redução da carga fiscal e na simplificação da burocracia. A Iniciativa Liberal tem defendido políticas que criam um ambiente mais competitivo e favorável ao empreendedorismo, permitindo que as pessoas possam prosperar com mais autonomia. O caminho que proponho é de um Estado mais eficiente e menos interventivo, para que todos possamos ter mais oportunidades e uma sociedade mais justa.',
-  },
+  // {
+  //   author: "Sónia Almada, 1963",
+  //   quote:
+  //     'O movimento "Unidos pelo Liberalismo" na Iniciativa Liberal representa a luta por um Portugal mais livre e próspero. Acredito que a chave para o nosso futuro está na promoção da liberdade individual, na redução da carga fiscal e na simplificação da burocracia. A Iniciativa Liberal tem defendido políticas que criam um ambiente mais competitivo e favorável ao empreendedorismo, permitindo que as pessoas possam prosperar com mais autonomia. O caminho que proponho é de um Estado mais eficiente e menos interventivo, para que todos possamos ter mais oportunidades e uma sociedade mais justa.',
+  // },
   {
     author: "Ezequiel Lopes, 661",
     quote:
@@ -121,35 +121,35 @@ export const testimonials = [
 
 export const members = [
   {
-    title: "VP - Política Local",
+    title: "Vice-Presidente: Política Local",
     name: "Carlos Martins",
     city: "Santa Maria da Feira",
     photo: "Carlos_Martins",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "VP - Formação e Talento",
+    title: "Vice-Presidente: Formação e Talento",
     name: "Cristina Nunes",
     city: "Lisboa",
     photo: "Cristina_Nunes",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "VP - Relações Institucionais",
+    title: "Vice-Presidente: Relações Institucionais",
     name: "Daniel Moura",
     city: "Loures",
     photo: "Daniel_Moura",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "VP - Assuntos Parlamentares",
+    title: "Vice-Presidente: Assuntos Parlamentares",
     name: "Natacha Ariana Ribeiro",
     city: "Lisboa",
     photo: "Natacha_Ribeiro",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "VP - Comunicação",
+    title: "Vice-Presidente: Comunicação",
     name: "Rui Valdemar",
     city: "Oeiras",
     photo: "Rui_Valdemar",
@@ -170,51 +170,51 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Gestão e Partilha de Conhecimento",
+    title: "Vogal: Gestão e Partilha de Conhecimento",
     name: "Carolina Veloso Martins",
     city: "Noruega",
     photo: "Carolina_Veloso_Martins",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Transformação Digital",
+    title: "Vogal: Transformação Digital",
     name: "Filipe Guimarães",
     city: "Lisboa",
     photo: "Filipe_Guimarães",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Operações e Eventos",
+    title: "Vogal: Operações e Eventos",
     name: "Marta Coutinho",
     city: "Porto",
     photo: "Marta_Coutinho",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Comunicação e Marketing",
+    title: "Vogal: Comunicação e Marketing",
     name: "Tiago Vilaverde",
     city: "Porto",
     photo: "Tiago_Vilaverde",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ação Local: Norte",
+    title: "Vogal: Ação Local: Norte",
     name: "José Baptista",
     city: "Braga",
     photo: "José_Baptista",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ação Local: Centro",
+    title: "Vogal: Ação Local: Centro",
     name: "Paulo Vieira",
     city: "Santa Maria da Feira",
     photo: "Paulo_Vieira",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ação Local: Sul",
+    title: "Vogal: Ação Local: Sul",
     name: "Francisco Paulino",
-    city: "Lisboa",
+    city: "",
     photo: "Francisco_Paulino",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
@@ -226,63 +226,63 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ação Local: Diáspora",
+    title: "Vogal: Ação Local: Diáspora",
     name: "Nelson Gonçalves",
     city: "BENELUX",
     photo: "Nelson_Gonçalves",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Ambiente, Sustentabilidade e Energia",
+    title: "Vogal: Ambiente, Sustentabilidade e Energia",
     name: "Fernando Saraiva",
     city: "São João da Madeira",
     photo: "Fernando_Saraiva",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Economia e Fiscalidade",
+    title: "Vogal: Economia e Fiscalidade",
     name: "Hugo Condesa",
     city: "Porto",
     photo: "Hugo_Condesa",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Juventude",
+    title: "Vogal: Juventude",
     name: "Ivo Silva",
     city: "Trofa",
     photo: "Ivo_Silva",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Saúde",
+    title: "Vogal: Saúde",
     name: "Jorge Carrapita",
     city: "Matosinhos",
     photo: "Jorge_Carrapita",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Justiça, Segurança e Migrações",
+    title: "Vogal: Justiça, Segurança e Migrações",
     name: "José Pereira",
     city: "Guimarães",
     photo: "José_Pereira",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Infraestruturas, Habitação e Turismo",
+    title: "Vogal: Infraestruturas, Habitação e Turismo",
     name: "Luís Proença",
     city: "Porto",
     photo: "Luís_Proença",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Educação e Cultura",
+    title: "Vogal: Educação e Cultura",
     name: "Miguel Machado Pereira",
     city: "Évora",
     photo: "Miguel_Pereira",
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Vogal - Trabalho e Segurança Social",
+    title: "Vogal: Trabalho e Segurança Social",
     name: "Sónia Almada",
     city: "Madeira",
     photo: "Sónia_Almada",

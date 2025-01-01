@@ -77,7 +77,10 @@ export const Team = () => {
               }}
             />
             <Typography variant="h6" gutterBottom>
-              {selectedMember.name} - {selectedMember.city}
+              {selectedMember.name}
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              {selectedMember.city}
             </Typography>
             <Typography variant="body2" gutterBottom>
               {selectedMember.title}
