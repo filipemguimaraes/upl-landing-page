@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/upl-landing-page/static/css/main.e924ebce.css",
-    "main.js": "/upl-landing-page/static/js/main.735b4a8a.js",
+    "main.js": "/upl-landing-page/static/js/main.93a9f90e.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
     "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.19dd01c610a89b6f6346.jpg",
@@ -40,11 +40,11 @@
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
     "main.e924ebce.css.map": "/upl-landing-page/static/css/main.e924ebce.css.map",
-    "main.735b4a8a.js.map": "/upl-landing-page/static/js/main.735b4a8a.js.map",
+    "main.93a9f90e.js.map": "/upl-landing-page/static/js/main.93a9f90e.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e924ebce.css",
-    "static/js/main.735b4a8a.js"
+    "static/js/main.93a9f90e.js"
   ]
 }
