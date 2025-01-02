@@ -109,6 +109,8 @@ export const Menu = ({ position }) => {
                           <YouTubeIcon />
                         ) : item.icon === "WhatsAppIcon" ? (
                           <WhatsAppIcon />
+                        ) : item.icon === "TwitterIcon" ? (
+                          <TwitterIcon />
                         ) : null;
 
                       return (

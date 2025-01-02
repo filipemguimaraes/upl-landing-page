@@ -28,6 +28,10 @@ export const drawerItems = [
 export const drawerSocialMedia = [
   {
     link: "https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN",
+    icon: "TwitterIcon",
+  },
+  {
+    link: "https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN",
     icon: "WhatsAppIcon",
   },
   {
@@ -230,7 +234,7 @@ export const members = [
     bio: "Escrever biografia, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
   },
   {
-    title: "Ação Local: Ilhas",
+    title: "Vogal \n Ação Local: Ilhas",
     name: "Caetano Martins",
     city: "Açores",
     photo: "Caetano_Martins",
