@@ -180,7 +180,7 @@ export const Menu = ({ position }) => {
           <div className="social-media">
             <Typography variant="body1">SEGUE-NOS</Typography>
             <a
-              href="https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN"
+              href="https://unidospeloliberalismo.pt/comunidade"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -189,7 +189,7 @@ export const Menu = ({ position }) => {
               </IconButton>
             </a>
             <a
-              href="https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN"
+              href="https://x.com/unidosliberal"
               target="_blank"
               rel="noopener noreferrer"
             >

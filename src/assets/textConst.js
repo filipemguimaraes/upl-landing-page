@@ -27,11 +27,11 @@ export const drawerItems = [
 
 export const drawerSocialMedia = [
   {
-    link: "https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN",
+    link: "https://x.com/unidosliberal",
     icon: "TwitterIcon",
   },
   {
-    link: "https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN",
+    link: "https://unidospeloliberalismo.pt/comunidade",
     icon: "WhatsAppIcon",
   },
   {
@@ -50,10 +50,10 @@ export const drawerSocialMedia = [
 
 export const actions = [
   {
-    title: "Adere à nossa Comunidade WhatsApp",
-    text: "Participa diretamente nas discussões que estão a moldar o futuro do partido. Unidos, trocamos ideias e definimos o caminho para um Portugal mais liberal. Entrar no grupo WhatsApp.",
-    buttonText: "ENTRAR NO GRUPO WHATSAPP",
-    link: "https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN",
+    title: "Junta-te a nós nos próximos eventos",
+    text: "Descobre os próximos eventos e junta-te à conversa!",
+    buttonText: "VER CALENDÁRIO",
+    link: "https://calendar.google.com/calendar/ical/33173eb54a7c52d7f91f38436a6e76dec7a9a801b73fba1fcaef97e11389a0dd%40group.calendar.google.com/public/basic.ics",
   },
   {
     title: "Contribui com um Donativo para a Campanha",
@@ -62,10 +62,10 @@ export const actions = [
     link: "https://gateway.ifthenpay.com/url/Ahl2CEw95L",
   },
   {
-    title: "No Dia das Eleições, Vota Lista U",
-    text: "O culminar do nosso trabalho conjunto. No dia das eleições, faz a diferença: vota na Lista U para que possamos restaurar os valores liberais e construir um futuro mais justo e livre.",
-    buttonText: "INSCREVER-ME NA CONVENÇÃO",
-    link: "https://portal.liberal.pt/inscricao-na-ix-convencao-nacional",
+    title: "Vem ajudar a Lista U",
+    text: "Preenche o nosso formulário e diz-nos como podes contribuir e qual a tua disponibilidade. Entraremos em contacto contigo em breve para juntos fazermos a diferença.",
+    buttonText: "SER VOLUNTÁRIO",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeMENeemkauJ10CDnhhDcaXpDsREIafnhe8wKX4Imm1xVhL4w/viewform",
   },
 ];
 

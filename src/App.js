@@ -15,8 +15,8 @@ function App() {
       <div className="App">
         <Menu position="fixed" /> {/* Header Menu */}
         <HeroSection />
-        {/* <CallToAction /> */}
         <LeaderMessage />
+        {/* <CallToAction /> */}
         <Testimonials />
         <Team />
         <Footer />

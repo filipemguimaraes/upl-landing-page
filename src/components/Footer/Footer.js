@@ -11,7 +11,7 @@ export const Footer = () => {
       <Grid item xs={12} className="join-us">
         <Button variant="contained" className="join-button">
           <a
-            href="https://chat.whatsapp.com/JC9AqIWGjA1AnOgAaFTrpN"
+            href="https://unidospeloliberalismo.pt/comunidade"
             target="_blank"
             rel="noopener noreferrer"
             className="join-link"
