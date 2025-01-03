@@ -17,7 +17,7 @@ export const LeaderMessage = () => {
         alignItems="center"
         style={{ width: "100%" }}
       >
-        <Grid item xs={12} md={6} className="leader-text-container">
+        <Grid item xs={12} md={12} className="leader-text-container">
           <Typography variant="body1" className="leader-message-body">
             Liberais, quero-vos manifestar um desejo e uma ambição: deixar um
             Portugal mais liberal para os nossos filhos, para os nossos netos e
@@ -78,7 +78,7 @@ export const LeaderMessage = () => {
             />
           </div>
         </Grid>
-        <Grid item xs={12} md={3} className="leader-image-container">
+        <Grid item xs={12} md={12} className="leader-image-container">
           <div className="image-fade-container">
             <img
               src={LeaderImage}
@@ -87,34 +87,34 @@ export const LeaderMessage = () => {
             />
           </div>
         </Grid>
-        <Grid
-          container
-          className="leader-logo-container"
-          justifyContent="space-around"
-          alignItems="center"
-          style={{ width: "100%" }}
-        >
-          <Grid item>
-            <Button
-              variant="contained"
-              className="leader-button"
-              aria-label="Conhecer restante da equipa"
-            >
-              <a href="#team-section" className="nav-link">
-                CONHECER RESTANTE DA EQUIPA
-              </a>
-            </Button>
-          </Grid>
-          <Grid item>
-            <div className="logo-lista">
-              <img src={LogoLista} alt="Logo da Lista-U" />
-            </div>
-          </Grid>
-          <Grid item>
-            <div className="logo">
-              <img src={Logo} alt="Logo da Iniciativa Liberal" />
-            </div>
-          </Grid>
+      </Grid>
+      <Grid
+        container
+        className="leader-logo-container"
+        justifyContent="space-around"
+        alignItems="center"
+        style={{ width: "100%" }}
+      >
+        <Grid item>
+          <Button
+            variant="contained"
+            className="leader-button"
+            aria-label="Conhecer restante da equipa"
+          >
+            <a href="#team-section" className="nav-link">
+              CONHECER RESTANTE DA EQUIPA
+            </a>
+          </Button>
+        </Grid>
+        <Grid item>
+          <div className="logo-lista">
+            <img src={LogoLista} alt="Logo da Lista-U" />
+          </div>
+        </Grid>
+        <Grid item>
+          <div className="logo">
+            <img src={Logo} alt="Logo da Iniciativa Liberal" />
+          </div>
         </Grid>
       </Grid>
     </Grid>

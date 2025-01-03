@@ -9,7 +9,7 @@
 }
 
 .leader-message {
-  margin: 10vh 10vw 4vh 10vw;
+  margin: 10vh 0vw 4vh 10vw;
   color: white;
 }
 
@@ -36,9 +36,9 @@
 
 .leader-text-container {
   max-width: 1000px;
+  min-width: 500px;
   flex: 1 1 60%;
   text-align: left;
-  padding: 20px;
 }
 
 .leader-message-body {
@@ -47,6 +47,7 @@
 }
 
 .leader-logo-container {
+  margin: 10vh 0vw 4vh 10vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
