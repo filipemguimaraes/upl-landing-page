@@ -34,7 +34,7 @@
 }
 
 .member-title {
-  min-width: 260px;
+  min-width: 270px;
   height: 40px;
   font-size: 14px !important;
   color: #ffbf00;
@@ -42,6 +42,10 @@
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
+  white-space: pre-wrap;
+}
+
+.member-bio {
   white-space: pre-wrap;
 }
 

@@ -85,7 +85,11 @@ export const Team = () => {
             <Typography variant="body2" gutterBottom>
               {selectedMember.title}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              className="member-bio"
+            >
               {selectedMember.bio || "Biography not available."}
             </Typography>
             <Button
