@@ -12,16 +12,15 @@ export const LeaderMessage = () => {
     <Grid container className="leader-section">
       <Grid
         container
-        spacing={8}
         className="leader-message"
-        justifyContent="space-around"
+        justifyContent="flex-start"
         alignItems="center"
         style={{ width: "100%" }}
       >
         <Grid item xs={12} md={6} className="leader-text-container">
-          <Typography variant="h6" className="leader-message-title">
-            "Liberais, quero-vos manifestar um desejo e uma ambição: deixar um
-            Portugal mais liberal para os nossos filhos, para os nossos netos e,
+          <Typography variant="body1" className="leader-message-body">
+            Liberais, quero-vos manifestar um desejo e uma ambição: deixar um
+            Portugal mais liberal para os nossos filhos, para os nossos netos e
             porque não, para nós próprios!
           </Typography>
 
@@ -29,41 +28,64 @@ export const LeaderMessage = () => {
             O percurso do partido desde a minha entrada em 2020 tem sido
             notável, e é um orgulho fazer parte desta família e ter contribuído
             para que o nosso partido e todos os membros chegassem ao patamar em
-            que hoje nos encontramos! No entanto, chegou a altura de darmos um
-            passo em frente, para com coragem transformarmos Portugal num país
-            mais liberal, em que todos tenham a liberdade para serem felizes,
-            sem amarras económicas, sociais ou políticas.
+            que hoje nos encontramos!
           </Typography>
 
           <Typography variant="body1" className="leader-message-body">
-            Transformar este sonho em realidade só depende de nós. Unidos,
-            podemos concretizar este objetivo e fazer deste partido um exemplo
-            na política nacional. Estão à porta umas eleições de proximidade,
-            onde cada indivíduo terá a oportunidade de ser um elemento
-            dinamizador do partido na sua região. O indivíduo tem uma força
-            extraordinária, mas os nossos Núcleos Territoriais, com mais
-            recursos e apoio nacional, terão um papel importantíssimo nesta
-            batalha.
+            No entanto, chegou a altura de darmos um passo em frente, para com
+            Coragem Transformarmos Portugal num país mais liberal, em que todos
+            tenham a liberdade para serem felizes, sem amarras económicas,
+            sociais ou políticas, onde o limite da felicidade de cada um dependa
+            apenas do próprio e não do Estado ou de outra entidade externa.
           </Typography>
 
           <Typography variant="body1" className="leader-message-body">
-            Contem comigo, com a mesma coragem de sempre, para transformar
+            Transformar este sonho em realidade só depende de nós, de um
+            verdadeiro sobressalto liberal, que, Unidos, podemos concretizar!
+          </Typography>
+
+          <Typography variant="body1" className="leader-message-body">
+            Liberais, o desafio é grande mas sei exatamente como o alcançar. A
+            União entre os liberais, trabalhando Unidos, com respeito pelos
+            nossos valores e princípios fundacionais, pode fazer deste partido
+            um exemplo na política nacional e catapultar a política nacional
+            para um patamar de excelência.
+          </Typography>
+
+          <Typography variant="body1" className="leader-message-body">
+            Estão à porta umas eleições de proximidade, onde cada indivíduo terá
+            a oportunidade de ser um elemento dinamizador do partido na sua
+            região. O indivíduo tem uma força extraordinária, mas os nossos
+            Núcleos Territoriais, com mais recursos e apoio nacional, terão um
+            papel importantíssimo nesta batalha que, como qualquer batalha
+            liberal, se deve focar nas suas ideias, na melhoria das condições de
+            vida dos portugueses, sustentado no nosso fortíssimo ideário liberal
+          </Typography>
+
+          <Typography variant="body1" className="leader-message-body">
+            Contem comigo, com a mesma Coragem de sempre, para Transformar
             Portugal!
           </Typography>
 
+          <Typography variant="body1" className="leader-message-body">
+            Um abraço,
+          </Typography>
           <div className="signature">
-            <Typography variant="body1" className="leader-message-body">
-              Um abraço."
-            </Typography>
-            <img src={assinaturaRui} alt="assinaturaRui" />
+            <img
+              src={assinaturaRui}
+              alt="assinaturaRui"
+              style={{ marginTop: "20px" }}
+            />
           </div>
         </Grid>
         <Grid item xs={12} md={3} className="leader-image-container">
-          <img
-            src={LeaderImage}
-            alt="Leader"
-            style={{ width: "100%", height: "auto" }}
-          />
+          <div className="image-fade-container">
+            <img
+              src={LeaderImage}
+              alt="Leader"
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
         </Grid>
         <Grid
           container

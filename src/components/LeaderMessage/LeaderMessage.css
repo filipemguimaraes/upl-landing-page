@@ -1,50 +1,55 @@
 /* Updated LeaderMessage.css */
-.leader-message {
+
+.leader-section {
   background: linear-gradient(
     to bottom,
     var(--dark-blue-color),
     var(--light-blue-color)
   );
+}
+
+.leader-message {
+  margin: 10vh 10vw 4vh 10vw;
   color: white;
-  padding: 40px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .leader-image-container {
   max-width: 300px;
   flex: 1 1 40%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+}
+
+.image-fade-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-fade-container img {
+  width: 100%;
+  height: auto;
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
 }
 
 .leader-text-container {
-  max-width: 900px;
+  max-width: 1000px;
   flex: 1 1 60%;
   text-align: left;
   padding: 20px;
 }
 
-.leader-message-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
 .leader-message-body {
-  font-size: 16px;
-  margin-bottom: 20px;
-  line-height: 1.6;
+  font-size: 18px;
+  margin-bottom: 6px !important;
 }
 
 .leader-logo-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 20px;
 }
 
 .leader-button {
@@ -66,7 +71,6 @@
 }
 
 .signature {
-  display: flex;
   img {
     height: 100px;
   }
@@ -77,5 +81,5 @@
 }
 
 .logo-lista img {
-  height: 100px;
+  height: 150px;
 }
