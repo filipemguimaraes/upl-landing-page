@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.afa9aa9d.css",
-    "main.js": "/upl-landing-page/static/js/main.775198db.js",
+    "main.css": "/upl-landing-page/static/css/main.a66b3c31.css",
+    "main.js": "/upl-landing-page/static/js/main.7363892b.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
     "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.945c9f9c7c51c37d60b4.jpg",
@@ -37,17 +37,17 @@
     "static/media/Caetano_Martins.jpg": "/upl-landing-page/static/media/Caetano_Martins.8ab682a09d3455b5535b.jpg",
     "static/media/Cristina_Nunes.jpg": "/upl-landing-page/static/media/Cristina_Nunes.3d6300af97a8c15ad93f.jpg",
     "static/media/Cátia_Martins.jpeg": "/upl-landing-page/static/media/Cátia_Martins.a53abd22d0d338c90d4e.jpeg",
-    "static/media/assinaturarui_white.png": "/upl-landing-page/static/media/assinaturarui_white.9f8a780438bf42e07e59.png",
+    "static/media/assinaturarui_white.png": "/upl-landing-page/static/media/assinaturarui_white.934d43f13207508626f9.png",
     "static/media/logo-branco.png": "/upl-landing-page/static/media/logo-branco.3936221324a2679aaa3d.png",
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.afa9aa9d.css.map": "/upl-landing-page/static/css/main.afa9aa9d.css.map",
-    "main.775198db.js.map": "/upl-landing-page/static/js/main.775198db.js.map",
+    "main.a66b3c31.css.map": "/upl-landing-page/static/css/main.a66b3c31.css.map",
+    "main.7363892b.js.map": "/upl-landing-page/static/js/main.7363892b.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afa9aa9d.css",
-    "static/js/main.775198db.js"
+    "static/css/main.a66b3c31.css",
+    "static/js/main.7363892b.js"
   ]
 }
