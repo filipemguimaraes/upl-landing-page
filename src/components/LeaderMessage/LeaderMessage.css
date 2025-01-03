@@ -1,57 +1,50 @@
-/* LeaderMessage.css */
+/* Updated LeaderMessage.css */
 .leader-message {
   background: linear-gradient(
     to bottom,
-    var(--light-blue-color),
-    var(--dark-blue-color)
+    var(--dark-blue-color),
+    var(--light-blue-color)
   );
   color: white;
-  padding: 60px 20px;
-  text-align: center;
-  min-height: calc(80vh - 2 * var(--menu-height));
-  justify-content: space-around;
-  align-items: center;
-}
-
-.leader-content {
+  padding: 40px 20px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-@media (min-width: 768px) {
-  .leader-content {
-    flex-direction: row;
-  }
 }
 
 .leader-image-container {
-  border-radius: 50%;
-  overflow: hidden;
-  width: 40vh;
-  height: 40vh;
-  margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-  .leader-image-container {
-    margin-bottom: 0;
-  }
+  max-width: 300px;
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .leader-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60vh !important;
-  height: 40vh !important;
+  max-width: 900px;
+  flex: 1 1 60%;
   text-align: left;
+  padding: 20px;
 }
 
 .leader-message-title {
-  font-weight: bold !important;
-  /* margin-bottom: 10vh !important; */
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.leader-message-body {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.leader-logo-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .leader-button {
@@ -69,10 +62,20 @@
 }
 
 .leader-button:hover {
-  background-color: var(--light-blue-color) !important;
+  background-color: var(--light-blue-color);
 }
 
+.signature {
+  display: flex;
+  img {
+    height: 100px;
+  }
+}
 .logo img {
-  text-align: right;
-  height: 60px !important;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.logo-lista img {
+  height: 100px;
 }

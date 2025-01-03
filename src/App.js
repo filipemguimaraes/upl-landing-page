@@ -16,7 +16,7 @@ function App() {
         <Menu position="fixed" /> {/* Header Menu */}
         <HeroSection />
         <LeaderMessage />
-        {/* <CallToAction /> */}
+        <CallToAction />
         <Testimonials />
         <Team />
         <Footer />
