@@ -52,6 +52,8 @@
 .team-button {
   width: 150px;
   background-color: var(--red-color) !important;
+  font-weight: bold !important;
+  line-height: 1.2 !important;
   color: white;
   border: none;
   cursor: pointer;

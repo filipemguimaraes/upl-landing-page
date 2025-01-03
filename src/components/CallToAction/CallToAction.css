@@ -32,7 +32,8 @@
   height: 100px;
   width: 260px;
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   line-height: 1.2 !important;
 }
 
@@ -43,11 +44,13 @@
 }
 
 .cta-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 18px !important;
   margin-bottom: 24px !important;
   height: 200px;
   width: 260px;
-  text-align: center;
 }
 
 .cta-button {

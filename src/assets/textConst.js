@@ -15,10 +15,10 @@ export const drawerItems = [
     title: "EQUIPA",
     link: "#team-section",
   },
-  {
-    title: "MEG",
-    link: "https://linktr.ee/unidospeloliberalismo",
-  },
+  // {
+  //   title: "MEG",
+  //   link: "https://linktr.ee/unidospeloliberalismo",
+  // },
   {
     title: "DONATIVOS",
     link: "https://gateway.ifthenpay.com/url/Ahl2CEw95L",
@@ -50,10 +50,10 @@ export const drawerSocialMedia = [
 
 export const actions = [
   {
-    title: "Junta-te a nós nos próximos eventos",
-    text: "Descobre os próximos eventos e junta-te à conversa!",
-    buttonText: "VER CALENDÁRIO",
-    link: "https://calendar.google.com/calendar/ical/33173eb54a7c52d7f91f38436a6e76dec7a9a801b73fba1fcaef97e11389a0dd%40group.calendar.google.com/public/basic.ics",
+    title: "Junta-te a nós!",
+    text: "Junta-te a nós para nos conhecermos, discutirmos ideias, fortalecer laços e discutirmos juntos o futuro do nosso partido!",
+    buttonText: "PRÓXIMOS EVENTOS",
+    link: "https://linktr.ee/unidospeloliberalismo",
   },
   {
     title: "Contribui com um Donativo para a Campanha",
@@ -70,31 +70,16 @@ export const actions = [
 ];
 
 export const testimonials = [
-  // {
-  //   author: "Filipe",
-  //   quote:
-  //     "Acredito que o movimento Unidos pelo Liberalismo é a força necessária para promover o liberalismo interno que o partido tanto precisa. É urgente abrir o partido aos seus membros, através de primárias, especialmente para a composição das listas às eleiçoes legislativas. Só assim conseguiremos aplicar, internamente, os mesmos princípios que defendemos para o país: mais concorrência, transparência e meritocracia.",
-  // },
   {
     author: "Marco Alves",
     quote:
       "O liberalismo é o espaço dos amantes da liberdade, daqueles que a amam tão apaixonadamente que compreendem que a liberdade dos outros tem tanto valor como a nossa, e que por isso assumem como singular missão de vida a responsabilidade pela proteção de um valor que é tão seu como de todos os outros. Onde este ideal atualmente é acarinhado com mais determinação é no movimento Unidos pelo Liberalismo!",
   },
-  // {
-  //   author: "Carolina Veloso Martins",
-  //   quote:
-  //     "Decidi juntar-me ao movimento Unidos Pelo Liberalismo por sentir a necessidade de revitalizar e reavivar as discussões liberais no partido. Sou Liberal e quero acima de tudo lutar pela implementação das ideias liberais em Portugal. E vejo neste movimento uma oportunidade de reunião do partido e retorno ao crescimento externo (e interno) que precisamos.",
-  // },
   {
     author: "Carlos Oliveira",
     quote:
       "Este movimento é a resposta óbvia ao estatismo e ao populismo que impera no ambiente político ! Precisamos de reformas estruturais urgentes, de nos libertarmos da obesidade crónica do estado, de nos tornarmos mais solidários e proporcionar um contexto e um futuro sem armadilhas aos muitos que querem empreeender. Não vejo por parte de quem lidera, uma clara manifestação em resolver e principalmente em ouvir as partes envolvidas nos temas mais cruéis e dramáticos do momento como por exemplo a habitação. Força UpLs !!",
   },
-  // {
-  //   author: "Sónia Almada, 1963",
-  //   quote:
-  //     'O movimento "Unidos pelo Liberalismo" na Iniciativa Liberal representa a luta por um Portugal mais livre e próspero. Acredito que a chave para o nosso futuro está na promoção da liberdade individual, na redução da carga fiscal e na simplificação da burocracia. A Iniciativa Liberal tem defendido políticas que criam um ambiente mais competitivo e favorável ao empreendedorismo, permitindo que as pessoas possam prosperar com mais autonomia. O caminho que proponho é de um Estado mais eficiente e menos interventivo, para que todos possamos ter mais oportunidades e uma sociedade mais justa.',
-  // },
   {
     author: "Ezequiel Lopes, 661",
     quote:
@@ -129,6 +114,11 @@ export const testimonials = [
     author: "Vasco, 3690",
     quote:
       "São já diversas as participações ativas em movimentos sociais e políticos para que algo mude no nosso país, mas, infelizmente, continuamos sem passadas firmes. Tenho uma esperança reforçada de que o Rui Malheiro vai conseguir rasgar as amarras do centralismo dentro da IL e agarrar a liderança de uma nova CE. Precisamos da sua coragem para transformar o país.",
+  },
+  {
+    author: "João Hermenegildo",
+    quote:
+      'Não adianta nada estar num partido liberal com os ideais correctos, difundir as ideias certas, mas ser como o frei Tomás: " faz o que eu digo, não o que eu faço ". \nO atual partido não só não é liberal como também não é democrático, tanto na sua constituição como na sua prática. \nÉ um partido centralista com práticas totalmente antidemocráticas.\nPois é exactamente o que acontece na nossa Iniciativa Liberal com esta CE.\nE é isto que queremos mudar através da afirmação deste movimento e o apoio incondicional ao Rui Malheiro.',
   },
 ];
 
@@ -201,7 +191,7 @@ export const members = [
     name: "Filipe Guimarães",
     city: "Lisboa",
     photo: "Filipe_Guimarães",
-    bio: "Filipe Guimarães, 35 anos, é licenciado em Gestão e Administração de Empresas, com pós-graduação em Finanças pela Universidade Católica, e trabalha como programador informático desde 2019 após um curso intensivo de programação; membro da Iniciativa Liberal desde 2021, ambiciona criar uma plataforma digital que centralize comunicações, fomente debates, ofereça fóruns temáticos, facilite gestão de pagamentos e donativos, inclua perfis personalizados e integre um calendário de eventos, promovendo interação organizada e garantindo contribuição significativa de todos os membros para os objetivos do partido.",
+    bio: "Filipe Guimarães, 35 anos, é licenciado em Gestão e Administração de Empresas, com pós-graduação em Finanças pela Universidade Católica, e trabalha como programador informático desde 2019 após um curso intensivo de programação; membro da Iniciativa Liberal desde 2021, \nAmbiciona criar uma plataforma digital que centralize comunicações, fomente debates, ofereça fóruns temáticos, facilite gestão de pagamentos e donativos, inclua perfis personalizados e integre um calendário de eventos, promovendo interação organizada e garantindo contribuição significativa de todos os membros para os objetivos do partido.",
   },
   {
     title: "Vogal \n Operações e Eventos",

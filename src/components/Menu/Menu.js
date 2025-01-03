@@ -134,12 +134,12 @@ export const Menu = ({ position }) => {
           {/* Desktop Navigation: Hide if static and below 1100px */}
           {!(position === "static" && isBelow1100px) && (
             <div className="nav-links">
-              <Typography variant="h6">
+              <Typography variant="body1">
                 <a href="#hero-section" className="nav-link">
                   INÍCIO
                 </a>
               </Typography>
-              <Typography variant="h6">
+              <Typography variant="body1">
                 <a
                   href="https://www.unidospeloliberalismo.pt/_files/ugd/83af3f_c98461c43c5a4d6cafe39c48ab988a91.pdf"
                   target="_blank"
@@ -149,12 +149,17 @@ export const Menu = ({ position }) => {
                   MANIFESTO
                 </a>
               </Typography>
-              <Typography variant="h6">
+              <Typography variant="body1">
+                <a href="#testimonials-section" className="nav-link">
+                  TESTEMUNHOS
+                </a>
+              </Typography>
+              <Typography variant="body1">
                 <a href="#team-section" className="nav-link">
                   EQUIPA
                 </a>
               </Typography>
-              <Typography variant="h6" className="nav-link">
+              {/* <Typography variant="body1" className="nav-link">
                 <a
                   href="https://linktr.ee/unidospeloliberalismo"
                   target="_blank"
@@ -163,7 +168,7 @@ export const Menu = ({ position }) => {
                 >
                   MEG
                 </a>
-              </Typography>
+              </Typography> */}
             </div>
           )}
         </div>

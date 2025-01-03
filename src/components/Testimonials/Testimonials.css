@@ -33,32 +33,38 @@
   box-shadow: 10px 6px var(--yellow-mustard-color) !important;
 }
 
+.leader-button:hover {
+  background-color: var(--light-blue-color) !important;
+}
+
 .show-button {
   margin: 0;
-  background-color: var(--red-color) !important;
   color: white;
   border: none;
   border-radius: 10px !important;
-  font-size: 20px !important;
+  padding: 10px 20px !important;
+  font-size: 18px !important;
   font-weight: bold !important;
+  line-height: 1.2 !important;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  height: 50px;
 }
 
 .show-more {
-  background-color: var(--light-blue-color) !important;
+  background-color: var(--red-color) !important;
   color: white !important;
 }
 
 .show-more:hover {
-  background-color: var(--red-color) !important;
+  background-color: var(--light-blue-color) !important;
 }
 
 .show-less {
-  background-color: var(--light-blue-color) !important;
+  background-color: var(--red-color) !important;
   color: white !important;
 }
 
 .show-less:hover {
-  background-color: var(--red-color) !important;
+  background-color: var(--light-blue-color) !important;
 }
