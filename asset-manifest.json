@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.3ac570d4.css",
-    "main.js": "/upl-landing-page/static/js/main.d59f1e05.js",
+    "main.css": "/upl-landing-page/static/css/main.edb2aa21.css",
+    "main.js": "/upl-landing-page/static/js/main.45829a5c.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
-    "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.082f4762e25dd02143c1.jpg",
     "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.945c9f9c7c51c37d60b4.jpg",
     "static/media/Carlos_Martins.jpeg": "/upl-landing-page/static/media/Carlos_Martins.d170cb92447c25235e90.jpeg",
+    "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.c5555dd2f2fb0eb597d3.jpg",
     "static/media/Daniel_Moura.jpeg": "/upl-landing-page/static/media/Daniel_Moura.088f8109b420abfe0327.jpeg",
     "static/media/Nelson_Gonçalves.jpg": "/upl-landing-page/static/media/Nelson_Gonçalves.1dc28f8d082d08233093.jpg",
     "static/media/Fernando_Saraiva.jpg": "/upl-landing-page/static/media/Fernando_Saraiva.c53eada90315d3bc5d7e.jpg",
@@ -42,12 +42,12 @@
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.3ac570d4.css.map": "/upl-landing-page/static/css/main.3ac570d4.css.map",
-    "main.d59f1e05.js.map": "/upl-landing-page/static/js/main.d59f1e05.js.map",
+    "main.edb2aa21.css.map": "/upl-landing-page/static/css/main.edb2aa21.css.map",
+    "main.45829a5c.js.map": "/upl-landing-page/static/js/main.45829a5c.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ac570d4.css",
-    "static/js/main.d59f1e05.js"
+    "static/css/main.edb2aa21.css",
+    "static/js/main.45829a5c.js"
   ]
 }
