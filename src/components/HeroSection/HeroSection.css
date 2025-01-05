@@ -4,7 +4,7 @@
   background: linear-gradient(
       to bottom,
       rgba(0, 172, 236, 0.7) /* light-blue */,
-      rgba(24, 40, 73, 0.6) /* dark-blue */
+      rgba(24, 40, 73, 0.9) /* dark-blue */
     ),
     url("../../assets/images/hero-section-background.jpg");
   background-size: cover;

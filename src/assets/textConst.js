@@ -191,7 +191,7 @@ export const members = [
     name: "Filipe Guimarães",
     city: "Lisboa",
     photo: "Filipe_Guimarães",
-    bio: "Filipe Guimarães, 35 anos, é licenciado em Gestão e Administração de Empresas, com pós-graduação em Finanças pela Universidade Católica, e trabalha como programador informático desde 2019 após um curso intensivo de programação; membro da Iniciativa Liberal desde 2021, \nAmbiciona criar uma plataforma digital que centralize comunicações, fomente debates, ofereça fóruns temáticos, facilite gestão de pagamentos e donativos, inclua perfis personalizados e integre um calendário de eventos, promovendo interação organizada e garantindo contribuição significativa de todos os membros para os objetivos do partido.",
+    bio: "Filipe Guimarães, 35 anos, é licenciado em Gestão e Administração de Empresas, com pós-graduação em Finanças pela Universidade Católica, após estar ligado a empreendedorismo optou por tirar um curso intensivo de programação, trabalhando como programador informático desde 2019 . É membro da Iniciativa Liberal desde 2021. \nAmbiciona criar uma plataforma digital que centralize comunicações, fomente debates, ofereça fóruns temáticos, facilite a gestão de pagamentos e donativos, integre um calendário de eventos, promova a interação organizada e garanta a contribuição significativa de todos os membros para os objetivos do partido. A inclusão de perfis personalizados será igualmente importante, permitindo que os membros se conheçam e comuniquem entre si. Um partido liberal não teme a livre organização dos seus membros.",
   },
   {
     title: "Vogal \n Operações e Eventos",
