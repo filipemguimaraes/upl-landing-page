@@ -8,6 +8,7 @@ import { Team } from "./components/Team/Team";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./assets/theme";
 import { Footer } from "./components/Footer/Footer";
+import { Calender } from "./components/Calender/Calender";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Menu position="fixed" /> {/* Header Menu */}
         <HeroSection />
         <LeaderMessage />
-        <CallToAction />
+        <Calender />
+        {/* <CallToAction /> */}
         <Testimonials />
         <Team />
         <Footer />

@@ -2,12 +2,12 @@
 .call-to-action {
   background: linear-gradient(
     to bottom,
-    var(--light-blue-color),
-    var(--dark-blue-color)
+    var(--dark-blue-color),
+    var(--light-blue-color)
   );
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - var(--menu-height));
+  padding: 10vh 10vw 4vh 10vw;
 }
 
 .cta-card {

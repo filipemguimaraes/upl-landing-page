@@ -3,7 +3,6 @@
   background-color: var(--dark-blue-color) !important;
   padding: 40px 20px;
   text-align: center;
-  min-height: calc(100vh - 2 * var(--menu-height));
 }
 
 .left-section {
