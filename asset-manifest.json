@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/upl-landing-page/static/css/main.25ccb1c4.css",
-    "main.js": "/upl-landing-page/static/js/main.1573aad2.js",
+    "main.js": "/upl-landing-page/static/js/main.654a9896.js",
     "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
+    "static/media/Rui_Malheiro_Mensagem.jpg": "/upl-landing-page/static/media/Rui_Malheiro_Mensagem.7e03fdea30880d516a5f.jpg",
     "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.a63ea34ecac7acf46047.jpg",
     "static/media/Carlos_Martins.jpeg": "/upl-landing-page/static/media/Carlos_Martins.d170cb92447c25235e90.jpeg",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.c5555dd2f2fb0eb597d3.jpg",
@@ -18,7 +19,6 @@
     "static/media/Ricardo_Santos.jpg": "/upl-landing-page/static/media/Ricardo_Santos.75afd600b25f6eeb55d4.jpg",
     "static/media/José_Baptista.jpg": "/upl-landing-page/static/media/José_Baptista.a601e7ec51564b51cd66.jpg",
     "static/media/Miguel_Gomes.jpg": "/upl-landing-page/static/media/Miguel_Gomes.e25f61789b326ed32a55.jpg",
-    "static/media/Rui_Malheiro_Mensagem.png": "/upl-landing-page/static/media/Rui_Malheiro_Mensagem.44485c931925356117b7.png",
     "static/media/Hugo_Condesa.jpg": "/upl-landing-page/static/media/Hugo_Condesa.1d1cc38851440ccb5f81.jpg",
     "static/media/Paulo_Vieira.jpg": "/upl-landing-page/static/media/Paulo_Vieira.a8e4fb4d5e47aff03998.jpg",
     "static/media/Natacha_Ribeiro.jpg": "/upl-landing-page/static/media/Natacha_Ribeiro.488ae2aeaf1ce74bfc38.jpg",
@@ -43,11 +43,11 @@
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
     "main.25ccb1c4.css.map": "/upl-landing-page/static/css/main.25ccb1c4.css.map",
-    "main.1573aad2.js.map": "/upl-landing-page/static/js/main.1573aad2.js.map",
+    "main.654a9896.js.map": "/upl-landing-page/static/js/main.654a9896.js.map",
     "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25ccb1c4.css",
-    "static/js/main.1573aad2.js"
+    "static/js/main.654a9896.js"
   ]
 }
