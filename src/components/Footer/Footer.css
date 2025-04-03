@@ -13,6 +13,7 @@
   justify-content: center; /* Centers content */
   text-decoration: none; /* Removes underline from link */
   color: white; /* Ensures text color matches the button */
+  padding-bottom: 20px;
 }
 
 .whatsapp-icon {
@@ -36,8 +37,11 @@
     text-decoration: none;
     color: white;
   }
-  @media (max-width: 650px) {
+  @media (max-width: 768px) {
     right: 10%;
+    font-size: 18px !important;
+    height: 64px;
+    padding-bottom: 10px;
   }
 }
 

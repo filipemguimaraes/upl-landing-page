@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Box, Typography, Button, Modal } from "@mui/material";
+import { Box, Typography, Button, Modal, IconButton } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import "./Team.css";
 import { members } from "../../assets/textConst";
 import { getImages } from "../../assets/utils";
+import CloseIcon from "@mui/icons-material/Close";
 
 export const Team = () => {
   const teamImage = getImages();
@@ -21,7 +22,7 @@ export const Team = () => {
   };
 
   return (
-    <div className="team-page">
+    <div id="team-page" className="team-page">
       <Typography
         variant="h3"
         id="team-title"
@@ -65,24 +66,32 @@ export const Team = () => {
                 top: "50%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
-                width: "80%",
-                maxWidth: 400,
-                maxHeight: "80vh",
+                width: "400px",
+                maxWidth: "76vw",
+                maxHeight: "90vh",
                 bgcolor: "background.paper",
                 boxShadow: 24,
-                p: 4,
+                padding: "28px",
                 borderRadius: "8px",
                 overflowY: "auto",
+                marginTop: "10px",
               }}
             >
+              <IconButton
+                onClick={handleClose}
+                color="inherit"
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  right: "0px",
+                }}
+              >
+                <CloseIcon />
+              </IconButton>
               <img
                 src={teamImage[selectedMember.photo]}
                 alt={selectedMember.name}
-                style={{
-                  width: "100%",
-                  borderRadius: "8px",
-                  marginBottom: "15px",
-                }}
+                className="member-photo-modal"
               />
               <Typography variant="h6" gutterBottom>
                 {selectedMember.name}

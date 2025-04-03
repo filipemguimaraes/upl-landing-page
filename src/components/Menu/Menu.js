@@ -79,12 +79,17 @@ export const Menu = ({ position }) => {
                   {drawerItems.map((item, index) => (
                     <ListItem button onClick={toggleDrawer(false)} key={index}>
                       <ListItemText>
-                        {item.link.startsWith("http") ? (
+                        {!item.link.startsWith("#") ? (
                           <a
                             href={item.link}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="nav-link"
+                            download={
+                              item.title === "MEG"
+                                ? "Moção de Estratégia Global - Coragem para Transformar Portugal - Lista U - Unidos Pelo Liberalismo.pdf"
+                                : undefined
+                            }
                           >
                             {item.title}
                           </a>
@@ -140,22 +145,22 @@ export const Menu = ({ position }) => {
                 </a>
               </Typography>
               <Typography variant="body1">
+                <a href="#calender-section" className="nav-link">
+                  AGENDA
+                </a>
+              </Typography>
+              <Typography variant="body1">
                 <a
-                  href="https://www.unidospeloliberalismo.pt/_files/ugd/83af3f_c98461c43c5a4d6cafe39c48ab988a91.pdf"
+                  href="https://gateway.ifthenpay.com/url/Ahl2CEw95L"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link"
                 >
-                  MANIFESTO
+                  DONATIVOS
                 </a>
               </Typography>
               <Typography variant="body1">
-                <a href="#testimonials-section" className="nav-link">
-                  TESTEMUNHOS
-                </a>
-              </Typography>
-              <Typography variant="body1">
-                <a href="#team-section" className="nav-link">
+                <a href="#team-page" className="nav-link">
                   EQUIPA
                 </a>
               </Typography>
@@ -194,7 +199,7 @@ export const Menu = ({ position }) => {
               </IconButton>
             </a>
             <a
-              href="https://x.com/unidosliberal"
+              href="https://x.com/MalheiroLiberal"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -203,7 +208,7 @@ export const Menu = ({ position }) => {
               </IconButton>
             </a>
             <a
-              href="https://www.instagram.com/unidospeloliberalismo/"
+              href="https://www.instagram.com/Malheiroliberal"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -212,7 +217,7 @@ export const Menu = ({ position }) => {
               </IconButton>
             </a>
             <a
-              href="https://www.facebook.com/unidospeloliberalismo/?locale=pt_BR"
+              href="https://www.facebook.com/profile.php?id=61570025434812&mibextid=LQQJ4d&rdid=MshETOi0u5R7ZZpV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FLr1yT9P9PiNt8uqf%2F%3Fmibextid%3DLQQJ4d"
               target="_blank"
               rel="noopener noreferrer"
             >

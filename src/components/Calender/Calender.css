@@ -1,11 +1,13 @@
 #calender-section {
-  padding: 10vh 0px;
   background: linear-gradient(
     to bottom,
-    var(--light-blue-color),
-    var(--dark-blue-color)
+    var(--dark-blue-color),
+    var(--light-blue-color)
   );
   padding: 10vh 0vw 10vh 0vw;
+  @media (max-width: 768px) {
+    padding: 4vh 0vw 4vh 0vw;
+  }
 }
 
 #calender-title {
@@ -34,6 +36,12 @@
   transition: background-color 0.3s ease;
 }
 
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
@@ -44,7 +52,7 @@
 }
 
 .calender-card {
-  max-width: 300px;
+  max-width: 260px;
   height: 200px;
   background-color: var(--dark-blue-color) !important;
   color: white !important;
@@ -59,22 +67,29 @@
   color: inherit;
 }
 
+.calender-card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  height: 90%;
+}
+
 .calender-card-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 18px !important;
   font-weight: bold !important;
-  height: 40px;
+  margin-bottom: 10px !important;
 }
 
 .calender-card-subtitle {
+  font-size: 22px !important;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold !important;
-  font-size: 18px !important;
-  margin-bottom: 10px !important;
-  height: 80px;
 }
 
 .calender-button {
@@ -89,7 +104,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   height: 50px;
-  width: 260px !important;
+  width: 220px !important;
 
   a {
     text-decoration: none;

@@ -52,6 +52,12 @@
   color: white;
 }
 
+.member-photo-modal {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
 .member-title {
   min-width: 270px;
   height: 40px;
@@ -84,8 +90,15 @@
 }
 
 .close-team-button {
-  background-color: var(--light-blue-color) !important;
+  background-color: var(--red-color) !important;
+  font-weight: bold !important;
+  line-height: 1.2 !important;
   color: white;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-team-button:hover {
+  background-color: var(--light-blue-color) !important;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Typography, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import "./HeroSection.css";
+import MEG from "../../assets/mocao-estrategia-global.pdf";
 
 export const HeroSection = () => {
   return (
@@ -19,12 +20,13 @@ export const HeroSection = () => {
           inspira, que desafia, que lidera. O liberalismo é coragem, é visão, é
           acreditar que o futuro pode ser diferente e que está nas nossas mãos
           construí-lo.
-          <br />
+          <br /> <br />
           Esta candidatura é muito mais do que uma candidatura à liderança da
           Iniciativa Liberal. Representa a coragem, a abertura, a
           responsabilidade e a ação que têm faltado, não apenas para liderar a
           Iniciativa Liberal, mas para liderar um movimento que devolva ao
-          indivíduo a esperança, a confiança e a liberdade. <br />
+          indivíduo a esperança, a confiança e a liberdade.
+          <br /> <br />
           Unidos, podemos construir um partido que inspire, que seja
           responsável, que marque nas pessoas um verdadeiro desígnio nacional, o
           desígnio de colocar Portugal dentro das dez economias mais
@@ -34,21 +36,12 @@ export const HeroSection = () => {
         <div id="hero-button-container">
           <Button variant="contained">
             <a
-              href="https://www.unidospeloliberalismo.pt/_files/ugd/83af3f_c98461c43c5a4d6cafe39c48ab988a91.pdf"
+              href={MEG}
               target="_blank"
               rel="noopener noreferrer"
+              download="Moção de Estratégia Global - Coragem para Transformar Portugal - Lista U - Unidos Pelo Liberalismo.pdf"
             >
-              VER MANIFESTO
-            </a>
-          </Button>
-
-          <Button variant="contained">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe2GTdXUFEvavO0bZhHeSdQlBELIviU5jNy5r1vxev02gMowQ/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SUBSCREVER
+              VER MOÇÃO
             </a>
           </Button>
         </div>

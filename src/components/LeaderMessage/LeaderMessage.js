@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Typography, Button } from "@mui/material";
 import Grid from "@mui/material/Grid2";
+import { useMediaQuery } from "@mui/material"; // Import useMediaQuery
 import "./LeaderMessage.css";
 import LeaderImage from "../../assets/images/team/Rui_Malheiro_Mensagem.png";
 import Logo from "../../assets/images/logo-branco.png";
@@ -8,6 +9,13 @@ import LogoLista from "../../assets/images/U-logo-white.png";
 import assinaturaRui from "../../assets/images/assinaturarui_white.png";
 
 export const LeaderMessage = () => {
+  const [showFullText, setShowFullText] = useState(false); // Manage collapsible state
+  const isMobile = useMediaQuery("(max-width:800px)"); // Detect if screen width is below 700px
+
+  const toggleShowFullText = () => {
+    setShowFullText(!showFullText);
+  };
+
   return (
     <Grid container className="leader-section">
       <Grid
@@ -47,32 +55,83 @@ export const LeaderMessage = () => {
             verdadeiro sobressalto liberal, que, Unidos, podemos concretizar!
           </Typography>
 
-          <Typography variant="body1" className="leader-message-body">
-            Liberais, o desafio é grande mas sei exatamente como o alcançar. A
-            União entre os liberais, trabalhando Unidos, com respeito pelos
-            nossos valores e princípios fundacionais, pode fazer deste partido
-            um exemplo na política nacional e catapultar a política nacional
-            para um patamar de excelência.
-          </Typography>
+          {/* Collapsible content for mobile */}
+          {!showFullText && isMobile && (
+            <div className="collapsed">
+              <Typography variant="body1" className="leader-message-body">
+                Liberais, o desafio é grande mas sei exatamente como o alcançar.
+                A União entre os liberais, trabalhando Unidos, com respeito
+                pelos nossos valores e princípios fundacionais, pode fazer deste
+                partido um exemplo na política nacional e catapultar a política
+                nacional para um patamar de excelência.
+              </Typography>
 
-          <Typography variant="body1" className="leader-message-body">
-            Estão à porta umas eleições de proximidade, onde cada indivíduo terá
-            a oportunidade de ser um elemento dinamizador do partido na sua
-            região. O indivíduo tem uma força extraordinária, mas os nossos
-            Núcleos Territoriais, com mais recursos e apoio nacional, terão um
-            papel importantíssimo nesta batalha que, como qualquer batalha
-            liberal, se deve focar nas suas ideias, na melhoria das condições de
-            vida dos portugueses, sustentado no nosso fortíssimo ideário liberal
-          </Typography>
+              <Typography variant="body1" className="leader-message-body">
+                Estão à porta umas eleições de proximidade, onde cada indivíduo
+                terá a oportunidade de ser um elemento dinamizador do partido na
+                sua região. O indivíduo tem uma força extraordinária, mas os
+                nossos Núcleos Territoriais, com mais recursos e apoio nacional,
+                terão um papel importantíssimo nesta batalha que, como qualquer
+                batalha liberal, se deve focar nas suas ideias, na melhoria das
+                condições de vida dos portugueses, sustentado no nosso
+                fortíssimo ideário liberal.
+              </Typography>
 
-          <Typography variant="body1" className="leader-message-body">
-            Contem comigo, com a mesma Coragem de sempre, para Transformar
-            Portugal!
-          </Typography>
+              <Typography variant="body1" className="leader-message-body">
+                Contem comigo, com a mesma Coragem de sempre, para Transformar
+                Portugal!
+              </Typography>
 
-          <Typography variant="body1" className="leader-message-body">
-            Um abraço,
-          </Typography>
+              <Typography variant="body1" className="leader-message-body">
+                Um abraço,
+              </Typography>
+            </div>
+          )}
+
+          {/* Expanded content for mobile or always visible on desktop */}
+          {(showFullText || !isMobile) && (
+            <>
+              <Typography variant="body1" className="leader-message-body">
+                Liberais, o desafio é grande mas sei exatamente como o alcançar.
+                A União entre os liberais, trabalhando Unidos, com respeito
+                pelos nossos valores e princípios fundacionais, pode fazer deste
+                partido um exemplo na política nacional e catapultar a política
+                nacional para um patamar de excelência.
+              </Typography>
+
+              <Typography variant="body1" className="leader-message-body">
+                Estão à porta umas eleições de proximidade, onde cada indivíduo
+                terá a oportunidade de ser um elemento dinamizador do partido na
+                sua região. O indivíduo tem uma força extraordinária, mas os
+                nossos Núcleos Territoriais, com mais recursos e apoio nacional,
+                terão um papel importantíssimo nesta batalha que, como qualquer
+                batalha liberal, se deve focar nas suas ideias, na melhoria das
+                condições de vida dos portugueses, sustentado no nosso
+                fortíssimo ideário liberal.
+              </Typography>
+
+              <Typography variant="body1" className="leader-message-body">
+                Contem comigo, com a mesma Coragem de sempre, para Transformar
+                Portugal!
+              </Typography>
+
+              <Typography variant="body1" className="leader-message-body">
+                Um abraço,
+              </Typography>
+            </>
+          )}
+
+          {/* Toggle button */}
+          {isMobile && (
+            <Button
+              variant="contained"
+              onClick={toggleShowFullText}
+              style={{ marginTop: "10px" }}
+              className="read-button"
+            >
+              {showFullText ? "Ler menos" : "Ler mais"}
+            </Button>
+          )}
         </Grid>
         <Grid item xs={12} md={12} className="leader-image-container">
           <div className="image-fade-container">
