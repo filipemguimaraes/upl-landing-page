@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/upl-landing-page/static/css/main.25ccb1c4.css",
-    "main.js": "/upl-landing-page/static/js/main.1573aad2.js",
-    "static/js/453.7f35f811.chunk.js": "/upl-landing-page/static/js/453.7f35f811.chunk.js",
-    "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.a63ea34ecac7acf46047.jpg",
+    "main.css": "/upl-landing-page/static/css/main.bff21543.css",
+    "main.js": "/upl-landing-page/static/js/main.9672baa3.js",
+    "static/js/453.9c3154de.chunk.js": "/upl-landing-page/static/js/453.9c3154de.chunk.js",
+    "static/media/mocao-estrategia-global.pdf": "/upl-landing-page/static/media/mocao-estrategia-global.2914dd77042db58ade46.pdf",
     "static/media/Carlos_Martins.jpeg": "/upl-landing-page/static/media/Carlos_Martins.d170cb92447c25235e90.jpeg",
     "static/media/hero-section-background.jpg": "/upl-landing-page/static/media/hero-section-background.c5555dd2f2fb0eb597d3.jpg",
+    "static/media/Rui_Malheiro.jpg": "/upl-landing-page/static/media/Rui_Malheiro.d205f9e65774fc214e55.jpg",
     "static/media/Daniel_Moura.jpeg": "/upl-landing-page/static/media/Daniel_Moura.088f8109b420abfe0327.jpeg",
     "static/media/Filipe_Guimarães.jpg": "/upl-landing-page/static/media/Filipe_Guimarães.ebe546b2af9b199b8e0e.jpg",
     "static/media/Nelson_Gonçalves.jpg": "/upl-landing-page/static/media/Nelson_Gonçalves.1dc28f8d082d08233093.jpg",
@@ -13,12 +14,12 @@
     "static/media/Maria_Simões.jpg": "/upl-landing-page/static/media/Maria_Simões.957f83b9f7058249719c.jpg",
     "static/media/Carolina_Veloso_Martins.jpg": "/upl-landing-page/static/media/Carolina_Veloso_Martins.5fc103d98f333590769f.jpg",
     "static/media/Tiago_Vilaverde.jpg": "/upl-landing-page/static/media/Tiago_Vilaverde.e1efa5df09e2755602fa.jpg",
+    "static/media/Rui_Malheiro_Mensagem.png": "/upl-landing-page/static/media/Rui_Malheiro_Mensagem.82f9bc40c6769f43c0dd.png",
     "static/media/Sónia_Almada.jpeg": "/upl-landing-page/static/media/Sónia_Almada.32c7d9908ccfb0d62904.jpeg",
     "static/media/Luís_Proença.jpg": "/upl-landing-page/static/media/Luís_Proença.0ee89e5101369344bd98.jpg",
     "static/media/Ricardo_Santos.jpg": "/upl-landing-page/static/media/Ricardo_Santos.75afd600b25f6eeb55d4.jpg",
     "static/media/José_Baptista.jpg": "/upl-landing-page/static/media/José_Baptista.a601e7ec51564b51cd66.jpg",
     "static/media/Miguel_Gomes.jpg": "/upl-landing-page/static/media/Miguel_Gomes.e25f61789b326ed32a55.jpg",
-    "static/media/Rui_Malheiro_Mensagem.png": "/upl-landing-page/static/media/Rui_Malheiro_Mensagem.44485c931925356117b7.png",
     "static/media/Hugo_Condesa.jpg": "/upl-landing-page/static/media/Hugo_Condesa.1d1cc38851440ccb5f81.jpg",
     "static/media/Paulo_Vieira.jpg": "/upl-landing-page/static/media/Paulo_Vieira.a8e4fb4d5e47aff03998.jpg",
     "static/media/Natacha_Ribeiro.jpg": "/upl-landing-page/static/media/Natacha_Ribeiro.488ae2aeaf1ce74bfc38.jpg",
@@ -42,12 +43,12 @@
     "static/media/Sandra_Amaro.jpeg": "/upl-landing-page/static/media/Sandra_Amaro.043e90ce558c00af5820.jpeg",
     "index.html": "/upl-landing-page/index.html",
     "static/media/double-quotes.svg": "/upl-landing-page/static/media/double-quotes.a4d62bc8f7b71deeab847ca0fdf23eb3.svg",
-    "main.25ccb1c4.css.map": "/upl-landing-page/static/css/main.25ccb1c4.css.map",
-    "main.1573aad2.js.map": "/upl-landing-page/static/js/main.1573aad2.js.map",
-    "453.7f35f811.chunk.js.map": "/upl-landing-page/static/js/453.7f35f811.chunk.js.map"
+    "main.bff21543.css.map": "/upl-landing-page/static/css/main.bff21543.css.map",
+    "main.9672baa3.js.map": "/upl-landing-page/static/js/main.9672baa3.js.map",
+    "453.9c3154de.chunk.js.map": "/upl-landing-page/static/js/453.9c3154de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ccb1c4.css",
-    "static/js/main.1573aad2.js"
+    "static/css/main.bff21543.css",
+    "static/js/main.9672baa3.js"
   ]
 }

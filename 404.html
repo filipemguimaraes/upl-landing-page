@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      fetch("/routes.json")
+        .then((response) => response.json())
+        .then((routes) => {
+          const path = window.location.pathname;
+          const route = routes.find((r) => r.from === path);
+
+          if (route) {
+            // Redirect to the external URL
+            window.location.replace(route.to);
+          } else {
+            // Redirect all other paths to React's root
+            window.location.replace("/");
+          }
+        })
+        .catch(() => {
+          // If fetching routes.json fails, redirect to the root
+          window.location.replace("/");
+        });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
